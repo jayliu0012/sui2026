@@ -1114,11 +1114,11 @@ const PackingListContent: React.FC<{ setSubView: (v: string | null) => void }> =
             <CollapsibleSection
                 title={
                     <span className="flex items-center">
-                        <LuggageIcon className="w-5 h-5 mr-2 text-[#d15b47]" />
+                        <LuggageIcon className="w-5 h-5 mr-2 text-[#FFC3BD]" />
                         行李攜帶注意事項
                     </span>
                 }
-                colorClass="border-[#d15b47]"
+                colorClass="border-[#FFC3BD]"
             >
                 <ul className="space-y-3 text-base">
                     {importantNotes.map((note, index) => {
@@ -1154,11 +1154,11 @@ const PackingListContent: React.FC<{ setSubView: (v: string | null) => void }> =
             <CollapsibleSection
                 title={
                     <span className="flex items-center">
-                        <BatteryIcon className="w-5 h-5 mr-2 text-[#98c187]" />
+                        <BatteryIcon className="w-5 h-5 mr-2 text-[#DFF7FD]" />
                         行動電源攜帶詳細規定
                     </span>
                 }
-                colorClass="border-[#98c187]"
+                colorClass="border-[#DFF7FD]"
             >
                 <ul className="space-y-4 text-base">
                     {powerBankRules.map((rule, index) => (
@@ -1172,7 +1172,7 @@ const PackingListContent: React.FC<{ setSubView: (v: string | null) => void }> =
 
             <div className="bg-white p-4 rounded-xl shadow-md mb-6 sticky top-[4.5rem] z-20 border border-gray-100">
                 <div className="flex justify-between items-end mb-2">
-                    <span className="text-sm font-bold text-[#757575]">完成度</span>
+                    <span className="text-base font-bold text-[#757575]">完成度</span>
                     <span className="text-2xl font-black text-[#2b6e90]">{calculateProgress()}%</span>
                 </div>
                 <div className="w-full bg-gray-200 rounded-full h-2.5">
