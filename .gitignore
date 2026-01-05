@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+.env.*
+/.cache
+.DS_Store
+coverage/
+/*.log
+# Optional editor folders
+.vscode/
