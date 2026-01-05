@@ -287,23 +287,6 @@ const FlightContent: React.FC<{ setSubView: (v: string | null) => void }> = ({ s
     </div>
 );
 
-const PowerBankRulesSection: React.FC = () => (
-    <div className="mb-6 p-3 bg-gray-200 rounded-lg shadow-inner">
-        <h4 className="text-base font-bold text-[#3c3c3c] mb-2 flex items-center">
-            <BatteryIcon className="w-4 h-4 mr-2 text-[#98c187]" />
-            行動電源攜帶詳細規定
-        </h4>
-        <ul className="space-y-2 text-base text-[#3c3c3c]">
-            {powerBankRules.map((rule, index) => (
-                <li key={index} className="flex items-start">
-                    <span className="font-semibold text-[#3E3FB0] mr-2 min-w-[5rem]">{rule.rule}:</span>
-                    <span className="flex-1">{rule.detail}</span>
-                </li>
-            ))}
-        </ul>
-    </div>
-);
-
 const AccommodationContent: React.FC<{ setSubView: (v: string | null) => void }> = ({ setSubView }) => (
     <div className="p-4 max-w-lg mx-auto">
         <button 
@@ -653,7 +636,7 @@ const SurvivalGuideContent: React.FC<{ setSubView: (v: string | null) => void }>
 };
 
 const CollapsibleSection: React.FC<{
-  title: string;
+  title: React.ReactNode;
   colorClass: string;
   children: React.ReactNode;
   defaultOpen?: boolean;
@@ -1128,7 +1111,64 @@ const PackingListContent: React.FC<{ setSubView: (v: string | null) => void }> =
                 🧳 行李檢核表
             </h2>
             
-            <PowerBankRulesSection />
+            <CollapsibleSection
+                title={
+                    <span className="flex items-center">
+                        <LuggageIcon className="w-5 h-5 mr-2 text-[#d15b47]" />
+                        行李攜帶注意事項
+                    </span>
+                }
+                colorClass="border-[#d15b47]"
+            >
+                <ul className="space-y-3 text-base">
+                    {importantNotes.map((note, index) => {
+                        const firstSpace = note.indexOf(' ');
+                        const icon = note.substring(0, firstSpace);
+                        const rest = note.substring(firstSpace + 1);
+                        const colonIndex = rest.indexOf('：');
+
+                        if (colonIndex > -1) {
+                            const title = rest.substring(0, colonIndex);
+                            const detail = rest.substring(colonIndex + 1).trim();
+                            return (
+                                <li key={index} className="flex items-start">
+                                    <span className="mr-2">{icon}</span>
+                                    <div>
+                                        <span className="font-bold text-[#3c3c3c]">{title}：</span>
+                                        <span className="text-[#757575]">{detail}</span>
+                                    </div>
+                                </li>
+                            );
+                        } else {
+                            return (
+                                <li key={index} className="flex items-start">
+                                    <span className="mr-2">{icon}</span>
+                                    <span className="text-[#757575]">{rest}</span>
+                                </li>
+                            );
+                        }
+                    })}
+                </ul>
+            </CollapsibleSection>
+            
+            <CollapsibleSection
+                title={
+                    <span className="flex items-center">
+                        <BatteryIcon className="w-5 h-5 mr-2 text-[#98c187]" />
+                        行動電源攜帶詳細規定
+                    </span>
+                }
+                colorClass="border-[#98c187]"
+            >
+                <ul className="space-y-4 text-base">
+                    {powerBankRules.map((rule, index) => (
+                        <li key={index}>
+                            <p className="font-bold text-[#3c3c3c]">{rule.rule}</p>
+                            <p className="mt-1 text-[#757575]">{rule.detail}</p>
+                        </li>
+                    ))}
+                </ul>
+            </CollapsibleSection>
 
             <div className="bg-white p-4 rounded-xl shadow-md mb-6 sticky top-[4.5rem] z-20 border border-gray-100">
                 <div className="flex justify-between items-end mb-2">
