@@ -1125,7 +1125,7 @@ const PackingListContent: React.FC<{ setSubView: (v: string | null) => void }> =
             </button>
 
             <h2 className="text-2xl font-extrabold text-[#3c3c3c] mb-6 flex items-center">
-                🧳 行利檢核表
+                🧳 行李檢核表
             </h2>
             
             <PowerBankRulesSection />
