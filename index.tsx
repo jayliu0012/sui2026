@@ -16,7 +16,8 @@ root.render(
 );
 
 // 使用絕對路徑註冊 SW
-if ('serviceWorker' in navigator) {
+// 只在 production 環境註冊 service worker，避免開發或 preview 時干擾
+if (import.meta.env && import.meta.env.PROD && 'serviceWorker' in navigator) {
   window.addEventListener('load', () => {
     navigator.serviceWorker.register('/sw.js').then(registration => {
       console.log('SW registered: ', registration);
