@@ -26,10 +26,12 @@ self.addEventListener('activate', event => {
 });
 
 self.addEventListener('fetch', event => {
-  // 採用網路優先策略，避免白畫面
+  // 採用網路優先策略；若失敗則嘗試快取資源，最後退回到 index.html（SPA fallback）
   event.respondWith(
-    fetch(event.request).catch(() => {
-      return caches.match(event.request);
-    })
+    fetch(event.request)
+      .then(response => response)
+      .catch(() => {
+        return caches.match(event.request).then(cached => cached || caches.match('/index.html'));
+      })
   );
 });
