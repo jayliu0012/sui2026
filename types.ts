@@ -78,6 +78,19 @@ export interface Accommodation {
   mapUrl: string;
 }
 
+export interface SouvenirItem {
+  imageUrl: string;
+  storeName: string;
+  mapUrl: string;
+}
+
+export interface SouvenirDay {
+  day: number;
+  date: string;
+  souvenirs: SouvenirItem[];
+}
+
+
 // Global variable declarations for the sandbox environment
 declare global {
   var __app_id: string | undefined;
