@@ -1,5 +1,5 @@
 
-import { FlightData, ItineraryDay, PackingCategory, PowerBankRule, Accommodation } from './types';
+import { FlightData, ItineraryDay, PackingCategory, PowerBankRule, Accommodation, SouvenirDay } from './types';
 
 export const PACKING_LIST_COLLECTION = 'packing_list';
 export const FIREBASE_LIST_DOC_ID = 'userList';
@@ -143,6 +143,31 @@ export const accommodationData: Accommodation[] = [
         notes: "",
         mapUrl: "https://maps.app.goo.gl/dDttATrd7b8dM3mt5"
     }
+];
+
+export const souvenirData: SouvenirDay[] = [
+  {
+    day: 5,
+    date: "2026/04/01",
+    souvenirs: [
+      {
+        imageUrl: "https://raw.githubusercontent.com/jayliu0012/sui2026/omiyage/灸饅.PNG",
+        storeName: "名物かまど 琴平店 (灸まん)",
+        mapUrl: "https://maps.app.goo.gl/WnFNZ2qr6Mq5XTTu5",
+      },
+    ],
+  },
+  {
+    day: 6,
+    date: "2026/04/02",
+    souvenirs: [
+        {
+            imageUrl: "https://raw.githubusercontent.com/jayliu0012/Shikoku2026/main/dango.png",
+            storeName: "つぼや菓子舗 (少爺糰子)",
+            mapUrl: "https://maps.app.goo.gl/88fBM54ZDjnqmqiSA"
+        }
+    ]
+  }
 ];
 
 export const itineraryData: ItineraryDay[] = [
