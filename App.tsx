@@ -1238,18 +1238,19 @@ const SouvenirContent: React.FC<{ setSubView: (v: string | null) => void }> = ({
                     colorClass="border-[#f1be42]"
                     defaultOpen={true}
                 >
-                    <div className="space-y-4">
+                    <div className="space-y-6">
                         {day.souvenirs.map((item, index) => (
-                            <div key={index} className="bg-gray-50 p-3 rounded-lg border border-gray-200">
-                                <img src={item.imageUrl} alt={item.storeName} className="w-full h-40 object-cover rounded-md mb-3" />
+                            <div key={index} className="bg-white p-4 rounded-lg border border-gray-200 shadow-sm text-center">
+                                <img src={item.imageUrl} alt={item.omiyageName} className="w-full h-40 object-cover rounded-md mb-4" />
+                                <p className="text-lg font-bold text-[#3c3c3c] mb-3">{item.omiyageName}</p>
                                 <a
                                     href={item.mapUrl}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="inline-flex items-center justify-center w-full px-4 py-2 bg-[#2b6e90] text-white text-sm font-bold rounded-lg hover:bg-opacity-90 transition shadow-sm"
+                                    className="inline-flex items-center justify-center w-full px-4 py-2 bg-[#2b6e90] text-white text-sm font-medium rounded-lg hover:bg-opacity-90 transition shadow-sm"
                                 >
-                                    <MapIcon className="w-4 h-4 mr-2" />
-                                    {item.storeName}
+                                    <MapIcon className="w-4 h-4 mr-2 flex-shrink-0" />
+                                    <span className="text-left">{item.storeName}</span>
                                 </a>
                             </div>
                         ))}
