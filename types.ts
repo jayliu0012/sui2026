@@ -80,8 +80,10 @@ export interface Accommodation {
 
 export interface SouvenirItem {
   imageUrl: string;
+  omiyageName: string;
   storeName: string;
   mapUrl: string;
+  address: string;
 }
 
 export interface SouvenirDay {
