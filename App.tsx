@@ -10,7 +10,7 @@ import {
 } from './components/Icons';
 import { 
   initialPackingList, 
-  importantNotes, powerBankRules, flightData, itineraryData, accommodationData
+  importantNotes, powerBankRules, flightData, itineraryData, accommodationData, souvenirData
 } from './constants';
 import { FlightInfo, ItineraryDay, ItineraryStop } from './types';
 
@@ -1114,11 +1114,11 @@ const PackingListContent: React.FC<{ setSubView: (v: string | null) => void }> =
             <CollapsibleSection
                 title={
                     <span className="flex items-center">
-                        <LuggageIcon className="w-5 h-5 mr-2 text-[#FFC3BD]" />
+                        <LuggageIcon className="w-5 h-5 mr-2 text-[#d15b47]" />
                         行李攜帶注意事項
                     </span>
                 }
-                colorClass="border-[#FFC3BD]"
+                colorClass="border-[#d15b47]"
             >
                 <ul className="space-y-3 text-base">
                     {importantNotes.map((note, index) => {
@@ -1154,11 +1154,11 @@ const PackingListContent: React.FC<{ setSubView: (v: string | null) => void }> =
             <CollapsibleSection
                 title={
                     <span className="flex items-center">
-                        <BatteryIcon className="w-5 h-5 mr-2 text-[#DFF7FD]" />
+                        <BatteryIcon className="w-5 h-5 mr-2 text-[#98c187]" />
                         行動電源攜帶詳細規定
                     </span>
                 }
-                colorClass="border-[#DFF7FD]"
+                colorClass="border-[#98c187]"
             >
                 <ul className="space-y-4 text-base">
                     {powerBankRules.map((rule, index) => (
@@ -1172,7 +1172,7 @@ const PackingListContent: React.FC<{ setSubView: (v: string | null) => void }> =
 
             <div className="bg-white p-4 rounded-xl shadow-md mb-6 sticky top-[4.5rem] z-20 border border-gray-100">
                 <div className="flex justify-between items-end mb-2">
-                    <span className="text-base font-bold text-[#757575]">完成度</span>
+                    <span className="text-sm font-bold text-[#757575]">完成度</span>
                     <span className="text-2xl font-black text-[#2b6e90]">{calculateProgress()}%</span>
                 </div>
                 <div className="w-full bg-gray-200 rounded-full h-2.5">
@@ -1218,6 +1218,55 @@ const PackingListContent: React.FC<{ setSubView: (v: string | null) => void }> =
     );
 };
 
+const SouvenirContent: React.FC<{ setSubView: (v: string | null) => void }> = ({ setSubView }) => (
+    <div className="p-4 max-w-lg mx-auto">
+        <button 
+            onClick={() => setSubView(null)} 
+            className="flex items-center text-[#2b6e90] font-semibold mb-6 p-2 rounded-full hover:bg-white transition text-sm"
+        >
+            <ChevronDown className="w-4 h-4 mr-1 transform rotate-90" />
+            返回選單
+        </button>
+        <h2 className="text-2xl font-extrabold text-[#3c3c3c] mb-6 flex items-center">
+            🎁 伴手禮清單
+        </h2>
+        <div className="space-y-4">
+            {souvenirData.map((day) => (
+                <CollapsibleSection
+                    key={day.day}
+                    title={`Day ${day.day} - ${formatDateForHeader(day.date).split(' ')[0]}`}
+                    colorClass="border-[#f1be42]"
+                    defaultOpen={true}
+                >
+                    <div className="space-y-4">
+                        {day.souvenirs.map((item, index) => (
+                            <div key={index} className="bg-gray-50 p-3 rounded-lg border border-gray-200">
+                                <img src={item.imageUrl} alt={item.storeName} className="w-full h-40 object-cover rounded-md mb-3" />
+                                <a
+                                    href={item.mapUrl}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="inline-flex items-center justify-center w-full px-4 py-2 bg-[#2b6e90] text-white text-sm font-bold rounded-lg hover:bg-opacity-90 transition shadow-sm"
+                                >
+                                    <MapIcon className="w-4 h-4 mr-2" />
+                                    {item.storeName}
+                                </a>
+                            </div>
+                        ))}
+                    </div>
+                </CollapsibleSection>
+            ))}
+        </div>
+         <button 
+            onClick={() => setSubView(null)} 
+            className="flex items-center text-[#2b6e90] font-semibold mt-6 mb-6 p-2 rounded-full hover:bg-white transition text-sm"
+        >
+            <ChevronDown className="w-4 h-4 mr-1 transform rotate-90" />
+            返回選單
+        </button>
+    </div>
+);
+
 const MenuButton: React.FC<{ icon: React.ReactNode, label: string, onClick: () => void, fullWidth?: boolean }> = ({ icon, label, onClick, fullWidth }) => (
     <button 
         onClick={onClick}
@@ -1242,6 +1291,7 @@ const MenuPage: React.FC = () => {
     if (subView === 'driving') return <DrivingGuideContent setSubView={setSubView} />;
     if (subView === 'stretch') return <LegStretchContent setSubView={setSubView} />;
     if (subView === 'shikoku_info') return <ShikokuInfoContent setSubView={setSubView} />;
+    if (subView === 'souvenir') return <SouvenirContent setSubView={setSubView} />;
 
     return (
         <div className="p-4 max-w-lg mx-auto grid grid-cols-2 gap-4">
@@ -1285,6 +1335,11 @@ const MenuPage: React.FC = () => {
                 icon={<InfoIcon className="w-8 h-8 mb-2 text-[#2b6e90]" />} 
                 label="天氣資訊" 
                 onClick={() => setSubView('shikoku_info')} 
+             />
+             <MenuButton 
+                icon={<ShoppingBagIcon className="w-8 h-8 mb-2 text-[#f1be42]" />} 
+                label="伴手禮" 
+                onClick={() => setSubView('souvenir')} 
              />
         </div>
     );
