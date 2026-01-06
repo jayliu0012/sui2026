@@ -151,7 +151,7 @@ export const souvenirData: SouvenirDay[] = [
     date: "2026/04/01",
     souvenirs: [
       {
-        imageUrl: "https://raw.githubusercontent.com/jayliu0012/Sui2026/main/whale.png",
+        imageUrl: "https://raw.githubusercontent.com/jayliu0012/sui2026//omiyage/kyuman.PNG",
         storeName: "名物かまど 琴平店 (灸まん)",
         mapUrl: "https://maps.app.goo.gl/WnFNZ2qr6Mq5XTTu5",
       },
