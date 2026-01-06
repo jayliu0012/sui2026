@@ -401,4 +401,7 @@ export const itineraryData: ItineraryDay[] = [
                 durationLabel: "(停留 00時30分)",
                 mapUrl: "https://maps.app.goo.gl/7cqYFFK8Js4gxqEf8",
                 note: "備註：\n📝郵票(きって)¥100/張",
-                
+            }
+        ]
+    },
+]
