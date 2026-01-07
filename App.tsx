@@ -6,7 +6,7 @@ import {
   TrainIcon, UtensilsIcon, ShoppingBagIcon, TicketIcon, BedIcon,
   FuelIcon, ParkingIcon, CameraIcon, ShrineIcon, MailIcon, HotSpringIcon,
   BusIcon, ShipIcon, CableCarIcon, MusicIcon, ActivityIcon, LifeBuoyIcon, CarIcon,
-  InfoIcon, ClothIcon, StarIcon, BookOpenIcon
+  InfoIcon, ClothIcon, StarIcon, BookOpenIcon, FileTextIcon, PlusIcon, XIcon
 } from './components/Icons';
 import { 
   initialPackingList, 
@@ -1291,6 +1291,169 @@ const SouvenirContent: React.FC<{ setSubView: (v: string | null) => void }> = ({
     </div>
 );
 
+interface StickyNote {
+  id: string;
+  text: string;
+  color: string;
+  rotation: string;
+}
+
+const NotepadContent: React.FC<{ setSubView: (v: string | null) => void }> = ({ setSubView }) => {
+    const noteColors = ['bg-yellow-100', 'bg-green-100', 'bg-pink-100', 'bg-blue-100', 'bg-purple-100'];
+    const noteRotations = ['-rotate-2', 'rotate-1', 'rotate-2', '-rotate-1', 'rotate-3'];
+
+    const [notes, setNotes] = useState<StickyNote[]>(() => {
+        try {
+            const savedNotes = localStorage.getItem('trip_sticky_notes_v2');
+            return savedNotes ? JSON.parse(savedNotes) : [];
+        } catch (error) {
+            console.error("Failed to parse notes from localStorage", error);
+            return [];
+        }
+    });
+
+    useEffect(() => {
+        localStorage.setItem('trip_sticky_notes_v2', JSON.stringify(notes));
+    }, [notes]);
+    
+    const addNote = () => {
+        const newNote: StickyNote = {
+            id: `${Date.now()}-${Math.random()}`,
+            text: '',
+            color: noteColors[notes.length % noteColors.length],
+            rotation: noteRotations[notes.length % noteRotations.length],
+        };
+        setNotes([...notes, newNote]);
+    };
+    
+    const deleteNote = (id: string) => {
+        setNotes(notes.filter(note => note.id !== id));
+    };
+
+    const updateNoteText = (id: string, newText: string) => {
+        setNotes(notes.map(note => note.id === id ? { ...note, text: newText } : note));
+    };
+
+    return (
+        <div className="p-4 max-w-lg mx-auto">
+            <button 
+                onClick={() => setSubView(null)} 
+                className="flex items-center text-[#2b6e90] font-semibold mb-6 p-2 rounded-full hover:bg-white transition text-sm"
+            >
+                <ChevronDown className="w-4 h-4 mr-1 transform rotate-90" />
+                返回選單
+            </button>
+            <h2 className="text-2xl font-extrabold text-[#3c3c3c] mb-6 flex items-center">
+                📝 筆記
+            </h2>
+
+            <a 
+                href="https://services.digital.go.jp/zh-cmn-hant/visit-japan-web/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block bg-white rounded-xl shadow-md p-5 border-l-4 border-[#2b6e90] mb-6 hover:shadow-lg transition duration-300"
+            >
+                <h3 className="text-lg font-bold text-[#3c3c3c] mb-2 flex items-center">
+                    <span className="text-2xl mr-3">🌐</span>
+                    Visit Japan Web
+                </h3>
+            </a>
+
+            <CollapsibleSection
+                title={
+                    <span className="flex items-center">
+                        <span className="text-2xl mr-3">🛡️</span>
+                        東京海上日動保險
+                    </span>
+                }
+                colorClass="border-[#98c187]"
+            >
+                <div className="space-y-2">
+                    <a 
+                        href="https://t-o.tokiomarine-nichido.co.jp/IB01/dfw/IB01/ZS3101_WC_PUB/startWC.html?__ZS_gid=COMMON&__ZS_aid=RENAR001&cd=39C25588T9021000000000000OFFICE21"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition"
+                    >
+                        <span className="mr-3 text-lg">📄</span>
+                        <span className="font-medium text-[#2b6e90]">線上投保</span>
+                    </a>
+                    <a 
+                        href="https://play.google.com/store/apps/details?id=jp.co.tokiomarine_nichido.omotenashi&pcampaignid=web_share"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition"
+                    >
+                        <span className="mr-3 text-lg">👽</span>
+                        <span className="font-medium text-[#2b6e90]">Android app下載</span>
+                    </a>
+                    <a 
+                        href="https://apps.apple.com/jp/app/tokio-marine-safetyinformation/id1481323309"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition"
+                    >
+                        <span className="mr-3 text-lg">🍎</span>
+                        <span className="font-medium text-[#2b6e90]">IOS app下載</span>
+                    </a>
+                </div>
+            </CollapsibleSection>
+
+             {/* Sticky Note Section */}
+            <div className="mt-8">
+                <div className="flex justify-between items-center mb-4">
+                     <h3 className="text-lg font-bold text-[#3c3c3c] flex items-center">
+                        <span className="text-2xl mr-2">📌</span>
+                        便利貼牆
+                     </h3>
+                    <button 
+                        onClick={addNote}
+                        className="flex items-center bg-white text-[#2b6e90] font-bold py-2 px-4 rounded-full shadow-md border border-gray-100 hover:bg-gray-50 active:scale-95 transition"
+                    >
+                        <PlusIcon className="w-5 h-5 mr-1" />
+                        新增
+                    </button>
+                </div>
+                <div className="bg-gray-200 p-4 rounded-lg min-h-[200px] shadow-inner">
+                    <div className="flex flex-wrap gap-4">
+                        {notes.map(note => (
+                            <div key={note.id} className={`relative p-2 w-40 h-40 shadow-lg ${note.color} ${note.rotation} transition-transform`}>
+                                <button 
+                                    onClick={() => deleteNote(note.id)}
+                                    className="absolute top-0 right-0 p-1 text-gray-500 hover:text-red-500"
+                                    aria-label="刪除筆記"
+                                >
+                                    <XIcon className="w-4 h-4" />
+                                </button>
+                                <textarea 
+                                    value={note.text}
+                                    onChange={(e) => updateNoteText(note.id, e.target.value)}
+                                    className="w-full h-full bg-transparent border-none resize-none focus:outline-none p-2 text-sm text-gray-800 font-medium"
+                                    placeholder="記事..."
+                                />
+                            </div>
+                        ))}
+                         {notes.length === 0 && (
+                            <div className="w-full text-center py-10 text-gray-400 italic">
+                                點擊「新增」來貼上第一張便利貼！
+                            </div>
+                         )}
+                    </div>
+                </div>
+            </div>
+
+            <button 
+                onClick={() => setSubView(null)} 
+                className="flex items-center text-[#2b6e90] font-semibold mt-6 mb-6 p-2 rounded-full hover:bg-white transition text-sm"
+            >
+                <ChevronDown className="w-4 h-4 mr-1 transform rotate-90" />
+                返回選單
+            </button>
+        </div>
+    );
+};
+
+
 const MenuButton: React.FC<{ icon: React.ReactNode, label: string, onClick: () => void, fullWidth?: boolean }> = ({ icon, label, onClick, fullWidth }) => (
     <button 
         onClick={onClick}
@@ -1315,6 +1478,7 @@ const MenuPage: React.FC<{
     if (activeSubView === 'stretch') return <LegStretchContent setSubView={setActiveSubView} />;
     if (activeSubView === 'shikoku_info') return <ShikokuInfoContent setSubView={setActiveSubView} />;
     if (activeSubView === 'souvenir') return <SouvenirContent setSubView={setActiveSubView} />;
+    if (activeSubView === 'notepad') return <NotepadContent setSubView={setActiveSubView} />;
 
     return (
         <div className="p-4 max-w-lg mx-auto grid grid-cols-2 gap-4">
@@ -1363,6 +1527,11 @@ const MenuPage: React.FC<{
                 icon={<ShoppingBagIcon className="w-8 h-8 mb-2 text-[#f1be42]" />} 
                 label="伴手禮" 
                 onClick={() => setActiveSubView('souvenir')} 
+             />
+             <MenuButton 
+                icon={<FileTextIcon className="w-8 h-8 mb-2 text-[#6366f1]" />} 
+                label="記事本" 
+                onClick={() => setActiveSubView('notepad')} 
              />
         </div>
     );
