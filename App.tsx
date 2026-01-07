@@ -1418,9 +1418,9 @@ const NotepadContent: React.FC<{ setSubView: (v: string | null) => void }> = ({ 
                     </button>
                 </div>
                 <div className="bg-gray-200 p-4 rounded-lg min-h-[200px] shadow-inner">
-                    <div className="flex flex-wrap gap-4">
+                    <div className="space-y-4">
                         {notes.map(note => (
-                            <div key={note.id} className={`relative p-2 w-40 h-40 shadow-lg ${note.color} ${note.rotation} transition-transform`}>
+                            <div key={note.id} className={`relative p-2 w-full h-40 shadow-lg ${note.color} transition-transform`}>
                                 <button 
                                     onClick={() => deleteNote(note.id)}
                                     className="absolute top-0 right-0 p-1 text-gray-500 hover:text-red-500 z-10"
