@@ -30,7 +30,29 @@ const formatDateForHeader = (dateStr: string) => {
     return `${mmdd} ${dayOfWeek}`;
 };
 
-const StopItem: React.FC<{ stop: ItineraryStop; index: number; total: number; themeHex: string }> = ({ stop, index, total, themeHex }) => {
+const NoteWithLink: React.FC<{ text: string; onLinkClick: () => void }> = ({ text, onLinkClick }) => {
+    const cleanedText = text.replace(/^備註：\s*/, '');
+    const parts = cleanedText.split('⚜️伴手禮');
+
+    if (parts.length < 2) {
+        return <span className="w-full whitespace-pre-line">{cleanedText}</span>;
+    }
+
+    return (
+        <span className="w-full whitespace-pre-line">
+            {parts[0]}
+            <button
+                onClick={onLinkClick}
+                className="font-bold text-[#f1be42] hover:underline bg-yellow-50 px-1 py-0.5 rounded-md transition-all duration-200 ease-in-out hover:bg-yellow-100"
+            >
+                ⚜️伴手禮
+            </button>
+            {parts[1]}
+        </span>
+    );
+};
+
+const StopItem: React.FC<{ stop: ItineraryStop; index: number; total: number; themeHex: string; onNavigateToSouvenir: () => void; }> = ({ stop, index, total, themeHex, onNavigateToSouvenir }) => {
     return (
         <div className="flex">
             {/* Timeline Column */}
@@ -91,7 +113,7 @@ const StopItem: React.FC<{ stop: ItineraryStop; index: number; total: number; th
                     </div>
                     {stop.note && (
                         <div className="flex items-start text-left text-base text-[#3c3c3c] leading-relaxed bg-gray-50 p-3 rounded-lg border border-gray-100 w-full">
-                            <span className="w-full whitespace-pre-line">{stop.note.replace(/^備註：\s*/, '')}</span>
+                            <NoteWithLink text={stop.note} onLinkClick={onNavigateToSouvenir} />
                         </div>
                     )}
                 </div>
@@ -118,7 +140,7 @@ const StopItem: React.FC<{ stop: ItineraryStop; index: number; total: number; th
 // Page Content Components
 // =================================================================
 
-const ItineraryView: React.FC<{ selectedDay: number; setSelectedDay: (d: number) => void }> = ({ selectedDay, setSelectedDay }) => {
+const ItineraryView: React.FC<{ selectedDay: number; setSelectedDay: (d: number) => void; onNavigateToSouvenir: () => void; }> = ({ selectedDay, setSelectedDay, onNavigateToSouvenir }) => {
     const dayData = itineraryData.find(d => d.day === selectedDay) || itineraryData[0];
     const themeHex = getThemeHex(dayData.color);
     const scrollRef = useRef<HTMLDivElement>(null);
@@ -167,7 +189,8 @@ const ItineraryView: React.FC<{ selectedDay: number; setSelectedDay: (d: number)
                                     stop={stop} 
                                     index={idx} 
                                     total={dayData.stops.length} 
-                                    themeHex={themeHex} 
+                                    themeHex={themeHex}
+                                    onNavigateToSouvenir={onNavigateToSouvenir}
                                 />
                             ))}
                             
@@ -1278,21 +1301,20 @@ const MenuButton: React.FC<{ icon: React.ReactNode, label: string, onClick: () =
     </button>
 );
 
-
-// Fixed error: Removed unused setCurrentPage prop from MenuPage component definition.
-const MenuPage: React.FC = () => {
-    const [subView, setSubView] = useState<string | null>(null);
-
-    // Render subviews based on state
-    if (subView === 'flight') return <FlightContent setSubView={setSubView} />;
-    if (subView === 'accommodation') return <AccommodationContent setSubView={setSubView} />;
-    if (subView === 'packing') return <PackingListContent setSubView={setSubView} />;
-    if (subView === 'worship') return <WorshipGuideContent setSubView={setSubView} />;
-    if (subView === 'survival') return <SurvivalGuideContent setSubView={setSubView} />;
-    if (subView === 'driving') return <DrivingGuideContent setSubView={setSubView} />;
-    if (subView === 'stretch') return <LegStretchContent setSubView={setSubView} />;
-    if (subView === 'shikoku_info') return <ShikokuInfoContent setSubView={setSubView} />;
-    if (subView === 'souvenir') return <SouvenirContent setSubView={setSubView} />;
+const MenuPage: React.FC<{
+    activeSubView: string | null;
+    setActiveSubView: (view: string | null) => void;
+}> = ({ activeSubView, setActiveSubView }) => {
+    // Render subviews based on prop
+    if (activeSubView === 'flight') return <FlightContent setSubView={setActiveSubView} />;
+    if (activeSubView === 'accommodation') return <AccommodationContent setSubView={setActiveSubView} />;
+    if (activeSubView === 'packing') return <PackingListContent setSubView={setActiveSubView} />;
+    if (activeSubView === 'worship') return <WorshipGuideContent setSubView={setActiveSubView} />;
+    if (activeSubView === 'survival') return <SurvivalGuideContent setSubView={setActiveSubView} />;
+    if (activeSubView === 'driving') return <DrivingGuideContent setSubView={setActiveSubView} />;
+    if (activeSubView === 'stretch') return <LegStretchContent setSubView={setActiveSubView} />;
+    if (activeSubView === 'shikoku_info') return <ShikokuInfoContent setSubView={setActiveSubView} />;
+    if (activeSubView === 'souvenir') return <SouvenirContent setSubView={setActiveSubView} />;
 
     return (
         <div className="p-4 max-w-lg mx-auto grid grid-cols-2 gap-4">
@@ -1300,47 +1322,47 @@ const MenuPage: React.FC = () => {
              <MenuButton 
                 icon={<PlaneIcon className="w-8 h-8 mb-2 text-[#2b6e90]" />} 
                 label="機票與行程" 
-                onClick={() => setSubView('flight')} 
+                onClick={() => setActiveSubView('flight')} 
              />
              <MenuButton 
                 icon={<HomeIcon className="w-8 h-8 mb-2 text-[#d15b47]" />} 
                 label="住宿資訊" 
-                onClick={() => setSubView('accommodation')} 
+                onClick={() => setActiveSubView('accommodation')} 
              />
              <MenuButton 
                 icon={<SquareCheckIcon className="w-8 h-8 mb-2 text-[#f1be42]" />} 
                 label="行李檢核表" 
-                onClick={() => setSubView('packing')} 
+                onClick={() => setActiveSubView('packing')} 
              />
              <MenuButton 
                 icon={<ShrineIcon className="w-8 h-8 mb-2 text-[#98c187]" />} 
                 label="參拜禮儀" 
-                onClick={() => setSubView('worship')} 
+                onClick={() => setActiveSubView('worship')} 
              />
              <MenuButton 
                 icon={<LifeBuoyIcon className="w-8 h-8 mb-2 text-[#d15b47]" />} 
                 label="生存指南" 
-                onClick={() => setSubView('survival')} 
+                onClick={() => setActiveSubView('survival')} 
              />
              <MenuButton 
                 icon={<CarIcon className="w-8 h-8 mb-2 text-[#2b6e90]" />} 
                 label="自駕注意" 
-                onClick={() => setSubView('driving')} 
+                onClick={() => setActiveSubView('driving')} 
              />
              <MenuButton 
                 icon={<StarIcon className="w-8 h-8 mb-2 text-[#98c187]" />} 
                 label="腿部伸展" 
-                onClick={() => setSubView('stretch')} 
+                onClick={() => setActiveSubView('stretch')} 
              />
              <MenuButton 
                 icon={<InfoIcon className="w-8 h-8 mb-2 text-[#2b6e90]" />} 
                 label="天氣資訊" 
-                onClick={() => setSubView('shikoku_info')} 
+                onClick={() => setActiveSubView('shikoku_info')} 
              />
              <MenuButton 
                 icon={<ShoppingBagIcon className="w-8 h-8 mb-2 text-[#f1be42]" />} 
                 label="伴手禮" 
-                onClick={() => setSubView('souvenir')} 
+                onClick={() => setActiveSubView('souvenir')} 
              />
         </div>
     );
@@ -1348,6 +1370,17 @@ const MenuPage: React.FC = () => {
 const App: React.FC = () => {
     const [currentPage, setCurrentPage] = useState<'itinerary' | 'menu'>('itinerary');
     const [selectedDay, setSelectedDay] = useState(1);
+    const [activeSubView, setActiveSubView] = useState<string | null>(null);
+
+    const handleNavigateToSouvenir = () => {
+        setCurrentPage('menu');
+        setActiveSubView('souvenir');
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    };
+
     return (
         <div className="min-h-screen bg-[#f0f4f6] pb-24 font-sans">
             <header className="bg-white border-b border-gray-200 shadow-sm p-4 sticky top-0 z-50">
@@ -1360,9 +1393,16 @@ const App: React.FC = () => {
             </header>
 
             {currentPage === 'itinerary' ? (
-                <ItineraryView selectedDay={selectedDay} setSelectedDay={setSelectedDay} />
+                <ItineraryView 
+                    selectedDay={selectedDay} 
+                    setSelectedDay={setSelectedDay}
+                    onNavigateToSouvenir={handleNavigateToSouvenir}
+                />
             ) : (
-                <MenuPage />
+                <MenuPage 
+                    activeSubView={activeSubView}
+                    setActiveSubView={setActiveSubView}
+                />
             )}
 
             <footer className="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] flex justify-around z-50 pb-safe">
