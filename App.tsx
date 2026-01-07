@@ -6,7 +6,7 @@ import {
   TrainIcon, UtensilsIcon, ShoppingBagIcon, TicketIcon, BedIcon,
   FuelIcon, ParkingIcon, CameraIcon, ShrineIcon, MailIcon, HotSpringIcon,
   BusIcon, ShipIcon, CableCarIcon, MusicIcon, ActivityIcon, LifeBuoyIcon, CarIcon,
-  InfoIcon, ClothIcon, StarIcon
+  InfoIcon, ClothIcon, StarIcon, BookOpenIcon
 } from './components/Icons';
 import { 
   initialPackingList, 
@@ -1370,7 +1370,7 @@ const App: React.FC = () => {
                     className={`flex flex-col items-center justify-center py-3 w-1/2 transition ${currentPage === 'itinerary' ? 'text-[#2b6e90] font-bold' : 'text-[#757575]'}`}
                     onClick={() => setCurrentPage('itinerary')}
                 >
-                    <MapIcon className="w-6 h-6 mb-1" /><span className="text-[14px]">行程總覽</span>
+                    <BookOpenIcon className="w-6 h-6 mb-1" /><span className="text-[14px]">行程總覽</span>
                 </button>
                 <button 
                     className={`flex flex-col items-center justify-center py-3 w-1/2 transition ${currentPage === 'menu' ? 'text-[#2b6e90] font-bold' : 'text-[#757575]'}`}
