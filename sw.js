@@ -1,5 +1,5 @@
 
-const CACHE_NAME = 'shikoku-v4';
+const CACHE_NAME = 'shikoku-v6';
 const urlsToCache = [
   './',
   './index.html',
