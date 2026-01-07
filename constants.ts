@@ -146,6 +146,33 @@ export const accommodationData: Accommodation[] = [
 ];
 
 export const souvenirData: SouvenirDay[] = [
+    {
+    day: 2,
+    date: "2026/03/29",
+    souvenirs: [
+      {
+        imageUrl: "https://raw.githubusercontent.com/jayliu0012/sui2026/main/omiyage/Oiri.jpg",
+        omiyageName: "丸亀おいり",
+        storeName: "かがわ物産館 栗林庵",
+        mapUrl: "https://maps.app.goo.gl/QiEhizAraKyjTHHN9",
+        address: "",
+      },
+      {
+        imageUrl: "https://raw.githubusercontent.com/jayliu0012/sui2026/main/omiyage/udon.jpg",
+        omiyageName: "どん県うどん風味キャラメル",
+        storeName: "かがわ物産館 栗林庵",
+        mapUrl: "https://maps.app.goo.gl/QiEhizAraKyjTHHN9",
+        address: "",
+      },
+      {
+        imageUrl: "https://raw.githubusercontent.com/jayliu0012/sui2026/main/omiyage/Rits.jpg",
+        omiyageName: "栗林のくり",
+        storeName: "湊屋 ゆめタウン高松店",
+        mapUrl: "https://maps.app.goo.gl/Rc5MeFJZ2YtWxBB27",
+        address: "",
+      },
+    ],
+  },
   {
     day: 5,
     date: "2026/04/01",
@@ -157,27 +184,28 @@ export const souvenirData: SouvenirDay[] = [
         mapUrl: "https://maps.app.goo.gl/Xz1H8sexCWpBioHS8",
         address: "",
       },
-            {
+      {
         imageUrl: "https://raw.githubusercontent.com/jayliu0012/sui2026/main/omiyage/kamado.jpg",
         omiyageName: "名物かまど",
         storeName: "名物かまど 琴平店",
         mapUrl: "https://maps.app.goo.gl/8evhdxkaSaq1777v9",
         address: "",
       },
+      {
+        imageUrl: "https://raw.githubusercontent.com/jayliu0012/sui2026/main/omiyage/Ichiroku.jpg",
+        omiyageName: "一六タルトとは",
+        storeName: "一六本舗 道後本館前店",
+        mapUrl: "https://maps.app.goo.gl/JVENUdXqKJPdjM2R6",
+        address: "",
+      },
+      {
+        imageUrl: "https://raw.githubusercontent.com/jayliu0012/sui2026/main/omiyage/bo.JPG",
+        omiyageName: "少爺糰子",
+        storeName: "つぼや菓子舗",
+        mapUrl: "https://maps.app.goo.gl/sT3is8TppeKJDJGs5",
+        address: "",
+      },
     ],
-  },
-  {
-    day: 6,
-    date: "2026/04/02",
-    souvenirs: [
-        {
-            imageUrl: "https://raw.githubusercontent.com/jayliu0012/Shikoku2026/main/dango.png",
-            omiyageName: "少爺糰子",
-            storeName: "つぼや菓子舗",
-            mapUrl: "https://maps.app.goo.gl/88fBM54ZDjnqmqiSA",
-            address: "",
-        }
-    ]
   },
   {
     day: 8,
@@ -187,6 +215,41 @@ export const souvenirData: SouvenirDay[] = [
         imageUrl: "https://raw.githubusercontent.com/jayliu0012/sui2026/main/omiyage/TakinoYakiMochi.png",
         omiyageName: "滝の焼餅",
         storeName: "和田の屋 (阿波おどり会館一階)",
+        mapUrl: "https://maps.app.goo.gl/4MvFi1PXYzQpkLv57",
+        address: "",
+      },
+      {
+        imageUrl: "https://raw.githubusercontent.com/jayliu0012/sui2026/main/omiyage/Kinchōmanjū.jpg",
+        omiyageName: "金長まんじゅう",
+        storeName: "ハレルヤ (阿波おどり会館一階)",
+        mapUrl: "https://maps.app.goo.gl/4MvFi1PXYzQpkLv57",
+        address: "",
+      },
+      {
+        imageUrl: "https://raw.githubusercontent.com/jayliu0012/sui2026/main/omiyage/Awa.png",
+        omiyageName: "阿波金長かすていら",
+        storeName: "ハレルヤ (阿波おどり会館一階)",
+        mapUrl: "https://maps.app.goo.gl/4MvFi1PXYzQpkLv57",
+        address: "",
+      },
+      {
+        imageUrl: "https://raw.githubusercontent.com/jayliu0012/sui2026/main/omiyage/Budo.jpg",
+        omiyageName: "ぶどう饅頭",
+        storeName: "日乃出 (阿波おどり会館一階)",
+        mapUrl: "https://maps.app.goo.gl/4MvFi1PXYzQpkLv57",
+        address: "",
+      },
+      {
+        imageUrl: "https://raw.githubusercontent.com/jayliu0012/sui2026/main/omiyage/Manm.jpg",
+        omiyageName: "マンマローザ",
+        storeName: "あるでよ徳島 (阿波おどり会館一階)",
+        mapUrl: "https://maps.app.goo.gl/4MvFi1PXYzQpkLv57",
+        address: "",
+      },
+      {
+        imageUrl: "https://raw.githubusercontent.com/jayliu0012/sui2026/main/omiyage/Meika.jpg",
+        omiyageName: "銘菓なると金時",
+        storeName: "菓舗仁木 (阿波おどり会館一階)",
         mapUrl: "https://maps.app.goo.gl/4MvFi1PXYzQpkLv57",
         address: "",
       },
@@ -841,16 +904,7 @@ export const itineraryData: ItineraryDay[] = [
                 category: "🍽️"
             },
             {
-                time: "16:55",
-                name: "つぼや菓子舗",
-                durationLabel: "(停留 00時30分)",
-                mapUrl: "https://maps.app.goo.gl/88fBM54ZDjnqmqiSA",
-                note: "備註：\n📝元祖坊っちゃん団子",
-                transport: { mode: "🚶", time: "1min" },
-                category: "🍽️"
-            },
-            {
-                time: "17:30",
+                time: "17:00",
                 name: "道後温泉別館 飛鳥乃湯泉",
                 durationLabel: "(停留 01時30分)",
                 mapUrl: "https://maps.app.goo.gl/jooFV8dHv4xKc8Yu6",
