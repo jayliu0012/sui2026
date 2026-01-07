@@ -1344,7 +1344,7 @@ const NotepadContent: React.FC<{ setSubView: (v: string | null) => void }> = ({ 
                 返回選單
             </button>
             <h2 className="text-2xl font-extrabold text-[#3c3c3c] mb-6 flex items-center">
-                📝 筆記
+                📝 記事本
             </h2>
 
             <a 
@@ -1357,6 +1357,9 @@ const NotepadContent: React.FC<{ setSubView: (v: string | null) => void }> = ({ 
                     <span className="text-2xl mr-3">🌐</span>
                     Visit Japan Web
                 </h3>
+                <p className="text-base text-[#757575]">
+                    入境審查、海關申報、免稅購物
+                </p>
             </a>
 
             <CollapsibleSection
@@ -1420,7 +1423,7 @@ const NotepadContent: React.FC<{ setSubView: (v: string | null) => void }> = ({ 
                             <div key={note.id} className={`relative p-2 w-40 h-40 shadow-lg ${note.color} ${note.rotation} transition-transform`}>
                                 <button 
                                     onClick={() => deleteNote(note.id)}
-                                    className="absolute top-0 right-0 p-1 text-gray-500 hover:text-red-500"
+                                    className="absolute top-0 right-0 p-1 text-gray-500 hover:text-red-500 z-10"
                                     aria-label="刪除筆記"
                                 >
                                     <XIcon className="w-4 h-4" />
