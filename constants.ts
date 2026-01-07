@@ -174,6 +174,19 @@ export const souvenirData: SouvenirDay[] = [
     ],
   },
   {
+    day: 3,
+    date: "2026/03/30",
+    souvenirs: [
+      {
+        imageUrl: "https://raw.githubusercontent.com/jayliu0012/sui2026/main/omiyage/hand.png",
+        omiyageName: "ハンドクリーム",
+        storeName: "四国ショップ88 (MariTime Plaza 高松一階)",
+        mapUrl: "https://maps.app.goo.gl/v1CQGxhUqRJih7BK8",
+        address: "",
+      },
+    ],
+  },
+  {
     day: 5,
     date: "2026/04/01",
     souvenirs: [
@@ -441,7 +454,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "栗林公園",
                 durationLabel: "(停留 02時00分)",
                 mapUrl: "https://maps.app.goo.gl/AYvf4cQYFPxuAWwM7",
-                note: "備註：\n💴門票:¥410/人\n🅿栗林公園 駐車場\n📝Map code: 60 545 891*36\n💴¥100/25min",
+                note: "備註：\n💴門票:¥410/人\n🅿栗林公園 駐車場\n📝Map code: 60 545 891*36\n💴¥100/25min\n===\n⚜️伴手禮",
                 parkingUrl: "https://maps.app.goo.gl/c2nUZh16ivDtgyKs7",
                 transport: { mode: "🚗", time: "10min" },
                 category: "🏞️"
@@ -635,7 +648,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "高松駅前広場地下駐車場",
                 durationLabel: "",
                 mapUrl: "https://maps.app.goo.gl/8oSamJPJqDHFvoVYA",
-                note: "備註：\n📝マリタイムプラザ高松",
+                note: "備註：\n📝マリタイムプラザ高松\n===\n⚜️伴手禮",
                 transport: { mode: "🚗", time: "1hr" },
                 category: "🅿️"
             },
@@ -692,7 +705,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "大步危峽谷觀光遊覽船",
                 durationLabel: "(停留 01時00分)",
                 mapUrl: "https://maps.app.goo.gl/zn6R4ap7Qtdi7St7A",
-                note: "備註：\n📝Map Code：357 151 826*11\n💴¥1500/人(來回)\n🅿觀光船附設\n💴免費",
+                note: "備註：\n📝Map Code：357 151 826*11\n💴¥1500/人(來回)\n🅿觀光船附設\n💴免費\n===\n⚜️伴手禮",
                 transport: { mode: "🚗", time: "16min" },
                 category: "🚢"
             },
@@ -855,6 +868,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "琴平公園駐車場",
                 durationLabel: "",
                 mapUrl: "https://maps.app.goo.gl/ia34DVa5jsSGzjsz9",
+                note: "備註：\n⚜️伴手禮",
                 transport: { mode: "🚗", time: "1hr40min" },
                 category: "🅿"
             },
@@ -900,6 +914,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "愛媛の食卓1970",
                 durationLabel: "(停留 00時30分)",
                 mapUrl: "https://maps.app.goo.gl/qYfHfWUgVj9Y4tX69",
+                note: "備註：\n⚜️伴手禮",
                 transport: { mode: "🚶", time: "1min" },
                 category: "🍽️"
             },
@@ -1236,7 +1251,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "阿波おどり会館",
                 durationLabel: "(停留 01時30分)",
                 mapUrl: "https://maps.app.goo.gl/NRG8a1A8ZvgJ6Ywi9",
-                note: "備註：\n🅿パークワン西山手\n📝Map Code：56 260 052*20\n💴¥100/20min\n📝人孔蓋卡",
+                note: "備註：\n🅿パークワン西山手\n📝Map Code：56 260 052*20\n💴¥100/20min\n📝人孔蓋卡\n===\n⚜️伴手禮",
                 parkingUrl: "https://maps.app.goo.gl/JzsooL9Y7yK7wH9f6",
                 transport: { mode: "🚗", time: "35min" },
                 category: "🛍️"
