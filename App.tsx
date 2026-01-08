@@ -1357,9 +1357,6 @@ const NotepadContent: React.FC<{ setSubView: (v: string | null) => void }> = ({ 
                     <span className="text-2xl mr-3">🌐</span>
                     Visit Japan Web
                 </h3>
-                <p className="text-base text-[#757575]">
-                    入境審查、海關申報、免稅購物
-                </p>
             </a>
 
             <CollapsibleSection
@@ -1388,7 +1385,7 @@ const NotepadContent: React.FC<{ setSubView: (v: string | null) => void }> = ({ 
                         className="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition"
                     >
                         <span className="mr-3 text-lg">👽</span>
-                        <span className="font-medium text-[#2b6e90]">Android app下載</span>
+                        <span className="font-medium text-[#2b6e90]">Android 下載</span>
                     </a>
                     <a 
                         href="https://apps.apple.com/jp/app/tokio-marine-safetyinformation/id1481323309"
@@ -1397,7 +1394,42 @@ const NotepadContent: React.FC<{ setSubView: (v: string | null) => void }> = ({ 
                         className="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition"
                     >
                         <span className="mr-3 text-lg">🍎</span>
-                        <span className="font-medium text-[#2b6e90]">IOS app下載</span>
+                        <span className="font-medium text-[#2b6e90]">IOS 下載</span>
+                    </a>
+                </div>
+            </CollapsibleSection>
+
+            <CollapsibleSection
+                title={
+                    <span className="flex items-center">
+                        <BusIcon className="w-6 h-6 mr-3 text-[#6366f1]" />
+                        巴士乘車票券
+                    </span>
+                }
+                colorClass="border-[#6366f1]"
+            >
+                <div className="space-y-2">
+                    <div className="flex items-start p-3 bg-gray-50 rounded-lg">
+                        <span className="mr-3 text-lg mt-0.5">🎟️</span>
+                        <span className="font-medium text-[#3c3c3c] text-left">Ticket→地域→香川→小豆島橄欖巴士</span>
+                    </div>
+                    <a 
+                        href="https://play.google.com/store/apps/details?id=jp.co.jorudan.nrkj"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition"
+                    >
+                        <span className="mr-3 text-lg">👽</span>
+                        <span className="font-medium text-[#2b6e90]">Android 下載</span>
+                    </a>
+                    <a 
+                        href="https://apps.apple.com/jp/app/%E4%B9%97%E6%8F%9B%E6%A1%88%E5%86%85/id299490481"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition"
+                    >
+                        <span className="mr-3 text-lg">🍎</span>
+                        <span className="font-medium text-[#2b6e90]">IOS 下載</span>
                     </a>
                 </div>
             </CollapsibleSection>
