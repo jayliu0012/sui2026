@@ -1414,7 +1414,7 @@ const NotepadContent: React.FC<{ setSubView: (v: string | null) => void }> = ({ 
                 <div className="space-y-2">
                     <div className="flex items-start p-3 bg-gray-50 rounded-lg">
                         <span className="mr-3 text-lg mt-0.5">🎟️</span>
-                        <span className="font-medium text-[#3c3c3c] text-left">．Ticket→地域→香川→小豆島橄欖巴士</span>
+                        <span className="font-medium text-[#3c3c3c] text-left">Ticket→地域→香川→小豆島橄欖巴士</span>
                     </div>
                     <a 
                         href="https://play.google.com/store/apps/details?id=jp.co.jorudan.nrkj"
