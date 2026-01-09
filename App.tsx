@@ -282,7 +282,7 @@ const FlightCard: React.FC<{ flight: FlightInfo }> = ({ flight }) => {
 const FlightContent: React.FC<{ setSubView: (v: string | null) => void }> = ({ setSubView }) => (
     <div className="p-4 max-w-lg mx-auto">
         <button 
-            onClick={() => setSubView(null)} 
+            onClick={() => window.history.back()} 
             className="flex items-center text-[#2b6e90] font-semibold mb-6 p-2 rounded-full hover:bg-white transition text-sm"
         >
             <ChevronDown className="w-4 h-4 mr-1 transform rotate-90" />
@@ -301,7 +301,7 @@ const FlightContent: React.FC<{ setSubView: (v: string | null) => void }> = ({ s
         <FlightCard flight={flightData.outbound} />
         <FlightCard flight={flightData.inbound} />
         <button 
-            onClick={() => setSubView(null)} 
+            onClick={() => window.history.back()} 
             className="flex items-center text-[#2b6e90] font-semibold mb-6 p-2 rounded-full hover:bg-white transition text-sm"
         >
             <ChevronDown className="w-4 h-4 mr-1 transform rotate-90" />
@@ -313,7 +313,7 @@ const FlightContent: React.FC<{ setSubView: (v: string | null) => void }> = ({ s
 const AccommodationContent: React.FC<{ setSubView: (v: string | null) => void }> = ({ setSubView }) => (
     <div className="p-4 max-w-lg mx-auto">
         <button 
-            onClick={() => setSubView(null)} 
+            onClick={() => window.history.back()} 
             className="flex items-center text-[#2b6e90] font-semibold mb-6 p-2 rounded-full hover:bg-white transition text-sm"
         >
             <ChevronDown className="w-4 h-4 mr-1 transform rotate-90" />
@@ -361,7 +361,7 @@ const AccommodationContent: React.FC<{ setSubView: (v: string | null) => void }>
             ))}
         </div>
         <button 
-            onClick={() => setSubView(null)} 
+            onClick={() => window.history.back()} 
             className="flex items-center text-[#2b6e90] font-semibold mb-6 p-2 rounded-full hover:bg-white transition text-sm"
         >
             <ChevronDown className="w-4 h-4 mr-1 transform rotate-90" />
@@ -373,7 +373,7 @@ const AccommodationContent: React.FC<{ setSubView: (v: string | null) => void }>
 const WorshipGuideContent: React.FC<{ setSubView: (v: string | null) => void }> = ({ setSubView }) => (
     <div className="p-4 max-w-lg mx-auto">
         <button
-            onClick={() => setSubView(null)}
+            onClick={() => window.history.back()}
             className="flex items-center text-[#2b6e90] font-semibold mb-6 p-2 rounded-full hover:bg-white transition text-base"
         >
             <ChevronDown className="w-4 h-4 mr-1 transform rotate-90" />
@@ -495,7 +495,7 @@ const WorshipGuideContent: React.FC<{ setSubView: (v: string | null) => void }> 
         </div>
 
         <button
-            onClick={() => setSubView(null)}
+            onClick={() => window.history.back()}
             className="flex items-center text-[#2b6e90] font-semibold mb-6 p-2 rounded-full hover:bg-white transition text-base"
         >
             <ChevronDown className="w-4 h-4 mr-1 transform rotate-90" />
@@ -519,7 +519,7 @@ const SurvivalGuideContent: React.FC<{ setSubView: (v: string | null) => void }>
     return (
         <div className="p-4 max-w-lg mx-auto">
             <button
-                onClick={() => setSubView(null)}
+                onClick={() => window.history.back()}
                 className="flex items-center text-[#2b6e90] font-semibold mb-6 p-2 rounded-full hover:bg-white transition text-sm"
             >
                 <ChevronDown className="w-4 h-4 mr-1 transform rotate-90" />
@@ -648,7 +648,7 @@ const SurvivalGuideContent: React.FC<{ setSubView: (v: string | null) => void }>
             </div>
 
             <button
-                onClick={() => setSubView(null)}
+                onClick={() => window.history.back()}
                 className="flex items-center text-[#2b6e90] font-semibold mt-6 mb-6 p-2 rounded-full hover:bg-white transition text-sm"
             >
                 <ChevronDown className="w-4 h-4 mr-1 transform rotate-90" />
@@ -692,7 +692,7 @@ const CollapsibleSection: React.FC<{
 const DrivingGuideContent: React.FC<{ setSubView: (v: string | null) => void }> = ({ setSubView }) => (
     <div className="p-4 max-w-lg mx-auto">
         <button
-            onClick={setSubView.bind(null, null)}
+            onClick={() => window.history.back()}
             className="flex items-center text-[#2b6e90] font-semibold mb-6 p-2 rounded-full hover:bg-white transition text-sm"
         >
             <ChevronDown className="w-4 h-4 mr-1 transform rotate-90" />
@@ -847,7 +847,7 @@ const DrivingGuideContent: React.FC<{ setSubView: (v: string | null) => void }> 
         </CollapsibleSection>
 
         <button
-            onClick={() => setSubView(null)}
+            onClick={() => window.history.back()}
             className="flex items-center text-[#2b6e90] font-semibold mt-6 mb-6 p-2 rounded-full hover:bg-white transition text-sm"
         >
             <ChevronDown className="w-4 h-4 mr-1 transform rotate-90" />
@@ -861,7 +861,7 @@ const LegStretchContent: React.FC<{ setSubView: (v: string | null) => void }> = 
     return (
         <div className="p-4 max-w-lg mx-auto">
             <button 
-                onClick={() => setSubView(null)} 
+                onClick={() => window.history.back()} 
                 className="flex items-center text-[#2b6e90] font-semibold mb-6 p-2 rounded-full hover:bg-white transition text-sm"
             >
                 <ChevronDown className="w-4 h-4 mr-1 transform rotate-90" />
@@ -937,7 +937,7 @@ const LegStretchContent: React.FC<{ setSubView: (v: string | null) => void }> = 
                  </div>
             </div>
             <button 
-                onClick={() => setSubView(null)} 
+                onClick={() => window.history.back()} 
                 className="flex items-center text-[#2b6e90] font-semibold mb-6 p-2 rounded-full hover:bg-white transition text-sm"
             >
                 <ChevronDown className="w-4 h-4 mr-1 transform rotate-90" />
@@ -1004,7 +1004,7 @@ const ShikokuInfoContent: React.FC<{ setSubView: (v: string | null) => void }> =
     return (
         <div className="p-4 max-w-lg mx-auto">
             <button 
-                onClick={() => setSubView(null)} 
+                onClick={() => window.history.back()} 
                 className="flex items-center text-[#2b6e90] font-semibold mb-6 p-2 rounded-full hover:bg-white transition text-sm"
             >
                 <ChevronDown className="w-4 h-4 mr-1 transform rotate-90" />
@@ -1095,7 +1095,7 @@ const ShikokuInfoContent: React.FC<{ setSubView: (v: string | null) => void }> =
             </div>
 
             <button 
-                onClick={() => setSubView(null)} 
+                onClick={() => window.history.back()} 
                 className="flex items-center text-[#2b6e90] font-semibold mt-6 mb-6 p-2 rounded-full hover:bg-white transition text-sm"
             >
                 <ChevronDown className="w-4 h-4 mr-1 transform rotate-90" />
@@ -1123,7 +1123,7 @@ const PackingListContent: React.FC<{ setSubView: (v: string | null) => void }> =
     return (
         <div className="p-4 max-w-lg mx-auto">
             <button 
-                onClick={() => setSubView(null)} 
+                onClick={() => window.history.back()} 
                 className="flex items-center text-[#2b6e90] font-semibold mb-6 p-2 rounded-full hover:bg-white transition text-sm"
             >
                 <ChevronDown className="w-4 h-4 mr-1 transform rotate-90" />
@@ -1231,7 +1231,7 @@ const PackingListContent: React.FC<{ setSubView: (v: string | null) => void }> =
             </div>
             
              <button 
-                onClick={() => setSubView(null)} 
+                onClick={() => window.history.back()} 
                 className="flex items-center text-[#2b6e90] font-semibold mt-6 mb-6 p-2 rounded-full hover:bg-white transition text-sm"
             >
                 <ChevronDown className="w-4 h-4 mr-1 transform rotate-90" />
@@ -1244,7 +1244,7 @@ const PackingListContent: React.FC<{ setSubView: (v: string | null) => void }> =
 const SouvenirContent: React.FC<{ setSubView: (v: string | null) => void }> = ({ setSubView }) => (
     <div className="p-4 max-w-lg mx-auto">
         <button 
-            onClick={() => setSubView(null)} 
+            onClick={() => window.history.back()} 
             className="flex items-center text-[#2b6e90] font-semibold mb-6 p-2 rounded-full hover:bg-white transition text-sm"
         >
             <ChevronDown className="w-4 h-4 mr-1 transform rotate-90" />
@@ -1282,7 +1282,7 @@ const SouvenirContent: React.FC<{ setSubView: (v: string | null) => void }> = ({
             ))}
         </div>
          <button 
-            onClick={() => setSubView(null)} 
+            onClick={() => window.history.back()} 
             className="flex items-center text-[#2b6e90] font-semibold mt-6 mb-6 p-2 rounded-full hover:bg-white transition text-sm"
         >
             <ChevronDown className="w-4 h-4 mr-1 transform rotate-90" />
@@ -1337,7 +1337,7 @@ const NotepadContent: React.FC<{ setSubView: (v: string | null) => void }> = ({ 
     return (
         <div className="p-4 max-w-lg mx-auto">
             <button 
-                onClick={() => setSubView(null)} 
+                onClick={() => window.history.back()} 
                 className="flex items-center text-[#2b6e90] font-semibold mb-6 p-2 rounded-full hover:bg-white transition text-sm"
             >
                 <ChevronDown className="w-4 h-4 mr-1 transform rotate-90" />
@@ -1357,6 +1357,9 @@ const NotepadContent: React.FC<{ setSubView: (v: string | null) => void }> = ({ 
                     <span className="text-2xl mr-3">🌐</span>
                     Visit Japan Web
                 </h3>
+                <p className="text-base text-[#757575]">
+                    入境審查、海關申報、免稅購物
+                </p>
             </a>
 
             <CollapsibleSection
@@ -1385,7 +1388,7 @@ const NotepadContent: React.FC<{ setSubView: (v: string | null) => void }> = ({ 
                         className="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition"
                     >
                         <span className="mr-3 text-lg">👽</span>
-                        <span className="font-medium text-[#2b6e90]">Android 下載</span>
+                        <span className="font-medium text-[#2b6e90]">Android app下載</span>
                     </a>
                     <a 
                         href="https://apps.apple.com/jp/app/tokio-marine-safetyinformation/id1481323309"
@@ -1394,7 +1397,7 @@ const NotepadContent: React.FC<{ setSubView: (v: string | null) => void }> = ({ 
                         className="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition"
                     >
                         <span className="mr-3 text-lg">🍎</span>
-                        <span className="font-medium text-[#2b6e90]">IOS 下載</span>
+                        <span className="font-medium text-[#2b6e90]">IOS app下載</span>
                     </a>
                 </div>
             </CollapsibleSection>
@@ -1411,7 +1414,7 @@ const NotepadContent: React.FC<{ setSubView: (v: string | null) => void }> = ({ 
                 <div className="space-y-2">
                     <div className="flex items-start p-3 bg-gray-50 rounded-lg">
                         <span className="mr-3 text-lg mt-0.5">🎟️</span>
-                        <span className="font-medium text-[#3c3c3c] text-left">Ticket→地域→香川→小豆島橄欖巴士</span>
+                        <span className="font-medium text-[#3c3c3c] text-left">．Ticket→地域→香川→小豆島橄欖巴士</span>
                     </div>
                     <a 
                         href="https://play.google.com/store/apps/details?id=jp.co.jorudan.nrkj"
@@ -1420,7 +1423,7 @@ const NotepadContent: React.FC<{ setSubView: (v: string | null) => void }> = ({ 
                         className="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition"
                     >
                         <span className="mr-3 text-lg">👽</span>
-                        <span className="font-medium text-[#2b6e90]">Android 下載</span>
+                        <span className="font-medium text-[#2b6e90]">Android app下載</span>
                     </a>
                     <a 
                         href="https://apps.apple.com/jp/app/%E4%B9%97%E6%8F%9B%E6%A1%88%E5%86%85/id299490481"
@@ -1429,7 +1432,7 @@ const NotepadContent: React.FC<{ setSubView: (v: string | null) => void }> = ({ 
                         className="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition"
                     >
                         <span className="mr-3 text-lg">🍎</span>
-                        <span className="font-medium text-[#2b6e90]">IOS 下載</span>
+                        <span className="font-medium text-[#2b6e90]">IOS app下載</span>
                     </a>
                 </div>
             </CollapsibleSection>
@@ -1478,7 +1481,7 @@ const NotepadContent: React.FC<{ setSubView: (v: string | null) => void }> = ({ 
             </div>
 
             <button 
-                onClick={() => setSubView(null)} 
+                onClick={() => window.history.back()} 
                 className="flex items-center text-[#2b6e90] font-semibold mt-6 mb-6 p-2 rounded-full hover:bg-white transition text-sm"
             >
                 <ChevronDown className="w-4 h-4 mr-1 transform rotate-90" />
@@ -1503,6 +1506,12 @@ const MenuPage: React.FC<{
     activeSubView: string | null;
     setActiveSubView: (view: string | null) => void;
 }> = ({ activeSubView, setActiveSubView }) => {
+    // Helper to push state before opening view
+    const openSubView = (view: string) => {
+        window.history.pushState({ view }, '', `#${view}`);
+        setActiveSubView(view);
+    };
+
     // Render subviews based on prop
     if (activeSubView === 'flight') return <FlightContent setSubView={setActiveSubView} />;
     if (activeSubView === 'accommodation') return <AccommodationContent setSubView={setActiveSubView} />;
@@ -1521,52 +1530,52 @@ const MenuPage: React.FC<{
              <MenuButton 
                 icon={<PlaneIcon className="w-8 h-8 mb-2 text-[#2b6e90]" />} 
                 label="機票與行程" 
-                onClick={() => setActiveSubView('flight')} 
+                onClick={() => openSubView('flight')} 
              />
              <MenuButton 
                 icon={<HomeIcon className="w-8 h-8 mb-2 text-[#d15b47]" />} 
                 label="住宿資訊" 
-                onClick={() => setActiveSubView('accommodation')} 
+                onClick={() => openSubView('accommodation')} 
              />
              <MenuButton 
                 icon={<SquareCheckIcon className="w-8 h-8 mb-2 text-[#f1be42]" />} 
                 label="行李檢核表" 
-                onClick={() => setActiveSubView('packing')} 
+                onClick={() => openSubView('packing')} 
              />
              <MenuButton 
                 icon={<ShrineIcon className="w-8 h-8 mb-2 text-[#98c187]" />} 
                 label="參拜禮儀" 
-                onClick={() => setActiveSubView('worship')} 
+                onClick={() => openSubView('worship')} 
              />
              <MenuButton 
                 icon={<LifeBuoyIcon className="w-8 h-8 mb-2 text-[#d15b47]" />} 
                 label="生存指南" 
-                onClick={() => setActiveSubView('survival')} 
+                onClick={() => openSubView('survival')} 
              />
              <MenuButton 
                 icon={<CarIcon className="w-8 h-8 mb-2 text-[#2b6e90]" />} 
                 label="自駕注意" 
-                onClick={() => setActiveSubView('driving')} 
+                onClick={() => openSubView('driving')} 
              />
              <MenuButton 
                 icon={<StarIcon className="w-8 h-8 mb-2 text-[#98c187]" />} 
                 label="腿部伸展" 
-                onClick={() => setActiveSubView('stretch')} 
+                onClick={() => openSubView('stretch')} 
              />
              <MenuButton 
                 icon={<InfoIcon className="w-8 h-8 mb-2 text-[#2b6e90]" />} 
                 label="天氣資訊" 
-                onClick={() => setActiveSubView('shikoku_info')} 
+                onClick={() => openSubView('shikoku_info')} 
              />
              <MenuButton 
                 icon={<ShoppingBagIcon className="w-8 h-8 mb-2 text-[#f1be42]" />} 
                 label="伴手禮" 
-                onClick={() => setActiveSubView('souvenir')} 
+                onClick={() => openSubView('souvenir')} 
              />
              <MenuButton 
                 icon={<FileTextIcon className="w-8 h-8 mb-2 text-[#6366f1]" />} 
                 label="記事本" 
-                onClick={() => setActiveSubView('notepad')} 
+                onClick={() => openSubView('notepad')} 
              />
         </div>
     );
@@ -1576,13 +1585,35 @@ const App: React.FC = () => {
     const [selectedDay, setSelectedDay] = useState(1);
     const [activeSubView, setActiveSubView] = useState<string | null>(null);
 
+    // Handle Hardware Back Button
+    useEffect(() => {
+        const handlePopState = (event: PopStateEvent) => {
+            if (activeSubView) {
+                setActiveSubView(null);
+            } else if (currentPage === 'menu') {
+                setCurrentPage('itinerary');
+            }
+        };
+
+        window.addEventListener('popstate', handlePopState);
+        return () => window.removeEventListener('popstate', handlePopState);
+    }, [activeSubView, currentPage]);
+
     const handleNavigateToSouvenir = () => {
+        window.history.pushState(null, '', '#souvenir');
         setCurrentPage('menu');
         setActiveSubView('souvenir');
         window.scrollTo({
             top: 0,
             behavior: 'smooth'
         });
+    };
+
+    const handleSwitchToMenu = () => {
+        if (currentPage !== 'menu') {
+            window.history.pushState(null, '', '#menu');
+            setCurrentPage('menu');
+        }
     };
 
     return (
@@ -1618,7 +1649,7 @@ const App: React.FC = () => {
                 </button>
                 <button 
                     className={`flex flex-col items-center justify-center py-3 w-1/2 transition ${currentPage === 'menu' ? 'text-[#2b6e90] font-bold' : 'text-[#757575]'}`}
-                    onClick={() => setCurrentPage('menu')}
+                    onClick={handleSwitchToMenu}
                 >
                     <MenuIcon className="w-6 h-6 mb-1" /><span className="text-[14px]">選單</span>
                 </button>
