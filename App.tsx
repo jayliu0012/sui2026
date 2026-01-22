@@ -438,12 +438,12 @@ const WorshipGuideContent: React.FC<{ setSubView: (v: string | null) => void }> 
                         <p className="text-base text-[#3c3c3c]">再次清洗左手。</p>
                     </div>
                     <div className="flex items-start">
-                        <span className="text-lg mr-2">🙇</span>
-                        <p className="text-base text-[#3c3c3c]">朝水池微微<span className="font-bold text-[#2b6e90]">鞠躬</span>。</p>
-                    </div>
-                    <div className="flex items-start">
                         <span className="text-lg mr-2">🔄</span>
                         <p className="text-base text-[#3c3c3c]">將勺子立起，用剩餘的水清洗勺柄，放回原處。</p>
+                    </div>
+                    <div className="flex items-start">
+                        <span className="text-lg mr-2">🙇</span>
+                        <p className="text-base text-[#3c3c3c]">朝水池微微<span className="font-bold text-[#2b6e90]">鞠躬</span>。</p>
                     </div>
                 </div>
             </div>
