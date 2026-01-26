@@ -334,12 +334,21 @@ export const itineraryData: ItineraryDay[] = [
                 name: "Kotobukiya Namba",
                 durationLabel: "(停留 01時00分)",
                 mapUrl: "https://maps.app.goo.gl/KbTwZ1xipkzfHX1E9",
-                note: "備註：\n📝御堂筋線:\n難波站 → 心齋橋站(1站)\n💴¥190",
-                transport: { mode: "🚶+🚃", time: "10分" },
+                note: "",
+                transport: { mode: "🚶", time: "7分" },
                 category: "🛍️"
             },
             {
-                time: "17:31",
+                time: "17:28",
+                name: "なんばマルイ",
+                durationLabel: "(停留 01時00分)",
+                mapUrl: "https://maps.app.goo.gl/ata1oASn6PXw6mmN9",
+                note: "備註：\n📝1F_BLOOMING自動販売機\n📝御堂筋線なんば駅 中改札外(備案)\n💿7F_HMV&BOOKS NAMBA\n📝御堂筋線:\n難波站 → 心齋橋站(1站)\n💴¥190",
+                transport: { mode: "🚶+🚃", time: "8分" },
+                category: "🛍️"
+            },
+            {
+                time: "18:40",
                 name: "3COINS",
                 durationLabel: "(停留 01時00分)",
                 mapUrl: "https://maps.app.goo.gl/pqvtqcavzvdt1HtGA",
@@ -347,16 +356,7 @@ export const itineraryData: ItineraryDay[] = [
                 category: "🛍️"
             },
             {
-                time: "18:36",
-                name: "HMV&BOOKS SHINSAIBASHI",
-                durationLabel: "(停留 01時00分)",
-                mapUrl: "https://maps.app.goo.gl/7WzvQLyVqJdP3KLf9",
-                note: "備註：\n📝御堂筋線:\n心齋橋站 → 難波站(1站)\n💴¥190",
-                transport: { mode: "🚶+🚃", time: "8分" },
-                category: "🛍️"
-            },
-            {
-                time: "19:44",
+                time: "19:50",
                 name: "南海難波",
                 durationLabel: "(停留 00時30分)",
                 mapUrl: "https://maps.app.goo.gl/FqjshYKq5CnPxBDT7",
@@ -366,16 +366,16 @@ export const itineraryData: ItineraryDay[] = [
                 category: "🚉"
             },
             {
-                time: "20:36",
+                time: "20:50",
                 name: "JOJO CChouse",
-                durationLabel: "(停留 00時15分)",
+                durationLabel: "(停留 00時10分)",
                 mapUrl: "https://maps.app.goo.gl/CaHm3U2Qae6oTWLz9",
                 note: "備註：\n📝谷町線:\n天神橋筋六丁目 → 東梅田(2站)\n💴¥190",
                 transport: { mode: "🚶+🚃", time: "22分" },
                 category: "🛏️"
             },
             {
-                time: "21:11",
+                time: "21:30",
                 name: "新梅田美食街",
                 durationLabel: "(停留 01時00分)",
                 mapUrl: "https://maps.app.goo.gl/PfkTrsuwTj8YWrCS7",
@@ -396,7 +396,6 @@ export const itineraryData: ItineraryDay[] = [
                 name: "JOJO CChouse",
                 durationLabel: "",
                 mapUrl: "https://maps.app.goo.gl/CaHm3U2Qae6oTWLz9",
-                transport: undefined,
                 category: "🛏️"
             }
         ]
@@ -1308,20 +1307,11 @@ export const itineraryData: ItineraryDay[] = [
                 name: "大阪難波ELLY-one",
                 durationLabel: "",
                 mapUrl: "https://maps.app.goo.gl/LtKsVRVXiNFDwqmU6",
-                transport: { mode: "🚶", time: "12分" },
+                transport: { mode: "🚶", time: "15分" },
                 category: "🛏️"
             },
             {
-                time: "19:25",
-                name: "なんばマルイ",
-                durationLabel: "(停留 00時15分)",
-                mapUrl: "https://maps.app.goo.gl/ocPpbu46CYQh5Ad78",
-                note: "備註：\n📝BLOOMING自動販売機-1F\n📝Osaka Metro 御堂筋線なんば駅 中改札外(備案)",
-                transport: { mode: "🚶", time: "4分" },
-                category: "🛍️"
-            },
-            {
-                time: "19:50",
+                time: "19:15",
                 name: "Karaokekan Namba-ebisubashi honten",
                 durationLabel: "(停留 02時00分)",
                 mapUrl: "https://maps.app.goo.gl/twvB49NcQ9gB8vgh8",
@@ -1329,9 +1319,9 @@ export const itineraryData: ItineraryDay[] = [
                 category: "🎶"
             },
             {
-                time: "22:00",
+                time: "21:30",
                 name: "道頓堀",
-                durationLabel: "(停留 01時00分)",
+                durationLabel: "(停留 01時30分)",
                 mapUrl: "https://maps.app.goo.gl/Eu5cPwihJ6md8voK9",
                 transport: { mode: "🚶", time: "16分" },
                 category: "🛍️"
