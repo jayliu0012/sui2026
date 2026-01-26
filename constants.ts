@@ -342,7 +342,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "なんばマルイ",
                 durationLabel: "(停留 01時00分)",
                 mapUrl: "https://maps.app.goo.gl/ata1oASn6PXw6mmN9",
-                note: "．1F_BLOOMING自動販売機\n．御堂筋線なんば駅 中改札外(備　案)\n．7F_HMV&BOOKS NAMBA\n．御堂筋線:\n　難波站 → 心齋橋站(1站)\n．¥190",
+                note: "．1F_BLOOMING自動販売機\n．御堂筋線なんば駅 中改札外(備\n　案)\n．7F_HMV&BOOKS NAMBA\n．御堂筋線:\n　難波站 → 心齋橋站(1站)\n．¥190",
                 transport: { mode: "🚶+🚃", time: "8分" },
                 category: "🛍️"
             },
@@ -443,7 +443,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "手打十段うどんバカ一代",
                 durationLabel: "(停留 01時00分)",
                 mapUrl: "https://maps.app.goo.gl/AYvf4cQYFPxuAWwM7",
-                note:"．Map code: 60 607 011*48\n．あなぶきパーク多賀町パーキング\n．¥100/30min",
+                note:"．🅿あなぶきパーク多賀町パーキング\n．Map code: 60 607 011*48\n．¥100/30min",
                 parkingUrl: "https://maps.app.goo.gl/c2nUZh16ivDtgyKs7",
                 transport: { mode: "🚗", time: "10min" },
                 category: "🍽️"
@@ -542,7 +542,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "小豆島|土庄行きフェリー乗船口",
                 durationLabel: "",
                 mapUrl: "https://maps.app.goo.gl/1DZX4E6Rvhnjii1z5",
-                note: "\n．7:20發船\n．¥1330/人(來回)",
+                note: "．7:20發船\n．¥1330/人(來回)",
                 transport: { mode: "🚢", time: "1hr" },
                 category: "⚓"
             },
@@ -603,7 +603,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "草壁港",
                 durationLabel: "(停留 00時35分)",
                 mapUrl: "https://maps.app.goo.gl/enP7ZtV2TW4NjRtS6",
-                note: "📝南廻り福田線:\n　13:36草壁港 → 13:40オリーブ公園口||\n📝坂手線:\n　14:15草壁港 → 14:19オリーブ公園口||\n📝田ノ浦映画村線:\n　14:56草壁港 → 15:00オリーブ公園口",
+                note: "📝南廻り福田線:\n　13:36草壁港 → 13:40オリーブ公\n　園口||\n📝坂手線:\n　14:15草壁港 → 14:19オリーブ公\n　園口||\n📝田ノ浦映画村線:\n　14:56草壁港 → 15:00オリーブ公\n　園口",
                 transport: { mode: "🚍", time: "4min" },
                 category: "🚏"
             },
@@ -612,7 +612,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "小豆島橄欖公園",
                 durationLabel: "(停留 01時20分)",
                 mapUrl: "https://maps.app.goo.gl/TzTtBd5bNXHBVfMz5",
-                note: "📝田ノ浦映画村線:\n　15:00オリーブ公園口→15:22国際ホテル_エンジェルロード前",
+                note: "📝田ノ浦映画村線:\n　15:00オリーブ公園口→15:22国\n　際ホテル_エンジェルロード前",
                 transport: { mode: "🚍", time: "22min" },
                 category: "📷"
             },
@@ -621,7 +621,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "エンジェルロード",
                 durationLabel: "(停留 01時00分)",
                 mapUrl: "https://maps.app.goo.gl/4C8pztCZJZsJDA1k8",
-                note: "📝田ノ浦映画村線:\n　16:58国際ホテル_エンジェルロード前→17:08土庄港||\n　18:36国際ホテル_エンジェルロード前→18:46土庄港",
+                note: "📝田ノ浦映画村線:\n　16:58国際ホテル_エンジェルロ\n　ード前→17:08土庄港||\n　18:36国際ホテル_エンジェルロ\n　ード前→18:46土庄港",
                 transport: { mode: "🚍", time: "10min" },
                 category: "🌅"
             },
@@ -704,7 +704,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "大步危峽谷觀光遊覽船",
                 durationLabel: "(停留 01時00分)",
                 mapUrl: "https://maps.app.goo.gl/zn6R4ap7Qtdi7St7A",
-                note: "備註：\n📝Map Code：357 151 826*11\n💴¥1500/人(來回)\n🅿觀光船附設\n💴免費\n===\n⚜️伴手禮",
+                note: "．Map Code：357 151 826*11\n．¥1500/人(來回)\n🅿觀光船附設註車場\n．免費\n===\n⚜️伴手禮",
                 transport: { mode: "🚗", time: "16min" },
                 category: "🚢"
             },
@@ -713,7 +713,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "ENEOS かずら橋 SS",
                 durationLabel: "(停留 00時15分)",
                 mapUrl: "https://maps.app.goo.gl/BrwrwQxPuvPxhxGK7",
-                note: "備註：\n📝Map Code：357 188 401*22",
+                note: "📝Map Code：357 188 401*22",
                 transport: { mode: "🚗+🚶", time: "10min" },
                 category: "⛽"
             },
@@ -722,7 +722,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "祖谷のかずら橋管理小屋",
                 durationLabel: "(停留 00時15分)",
                 mapUrl: "https://maps.app.goo.gl/m47yUdoA3czX1oMT6",
-                note: "備註：\n💴門票：¥550/人\n📝Map Code：357 130 554*57\n🅿かずら橋 渡り口駐車場\n💴¥500/次\n📝Map Code：357 130 708*11\n🅿祖谷のかずら橋付近駐車場(備案)\n💴¥300/次",
+                note: "．門票：¥550/人\n🅿かずら橋 渡り口駐車場\n．Map Code：357 130 554*57\n．¥500/次\n🅿祖谷のかずら橋付近駐車場(備案)\n．Map Code：357 130 708*11\n．¥300/次",
                 parkingUrl: "https://maps.app.goo.gl/cfdLER9teSjFkc9P7",
                 transport: { mode: "🚶", time: "2min" },
                 category: "🅿️"
@@ -756,7 +756,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "高屋神社（本宮）",
                 durationLabel: "(停留 01時00分)",
                 mapUrl: "https://maps.app.goo.gl/56EvWYLbpPH4129E6",
-                note: "備註：\n📝Map Code：77 274 062*73\n🅿天空の鳥居駐車場\n💴免費",
+                note: "🅿天空の鳥居駐車場\n．Map Code：77 274 062*73\n．免費",
                 parkingUrl: "https://maps.app.goo.gl/QtTb4nMgn2dFZpDG6",
                 transport: { mode: "🚗", time: "25min" },
                 category: "⛩️"
@@ -766,7 +766,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "父母濱海岸",
                 durationLabel: "(停留 02時00分)",
                 mapUrl: "https://maps.app.goo.gl/xE5tHKgyV9ct8uscA",
-                note: "備註：\n📝Map Code：77 363 248*02\n🅿父母ヶ浜 第1駐車場\n💴免費",
+                note: "🅿父母ヶ浜 第1駐車場\n．Map Code：77 363 248*02\n💴免費",
                 parkingUrl: "https://maps.app.goo.gl/6zkaAZpXzv4vYvoL7",
                 transport: { mode: "🚗", time: "10min" },
                 category: "🌅"
@@ -776,7 +776,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "arigatouya 3 minutes by car to C",
                 durationLabel: "",
                 mapUrl: "https://maps.app.goo.gl/qKSvDzaZz5FvERfr9",
-                note: "備註：\n📝Map Code：77 392 568*62",
+                note: "📝Map Code：77 392 568*62",
                 transport: { mode: "🚶", time: "4min" },
                 category: "🛏️"
             },
