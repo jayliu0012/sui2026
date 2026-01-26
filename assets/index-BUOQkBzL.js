@@ -52,7 +52,7 @@ key box【9655】`,mapUrl:"https://maps.app.goo.gl/Sbr2kRYoS9dVHCf88"},{name:"en
 ．ICOCA卡(南海電鐵_紅色窗口)`,transport:{mode:"🚶",time:"10分"},category:"🛬"},{time:"12:30",name:"関西空港駅",durationLabel:"(停留 00時09分)",note:`．南海空港線:
 　関西空港 → 南海難波(11站)
 ．¥970`,mapUrl:"https://maps.app.goo.gl/dQQoxyrGSD2K5RNy8",transport:{mode:"🚇",time:"54分"},category:"🚉"},{time:"13:33",name:"南海難波",durationLabel:"(停留 00時30分)",note:"📝行李寄放",mapUrl:"https://maps.app.goo.gl/FqjshYKq5CnPxBDT7",storageUrl:"https://maps.app.goo.gl/he44jc3v25impeKq6",transport:{mode:"🚶",time:"4分"},category:"🚉"},{time:"14:07",name:"福太郎 難波Dining Maison店",durationLabel:"(停留 01時00分)",mapUrl:"https://maps.app.goo.gl/TxSwyh3CFuRcGjep8",transport:{mode:"🚶",time:"9分"},category:"🍽️"},{time:"15:16",name:"K-books Namba-ichibankan",durationLabel:"(停留 01時00分)",mapUrl:"https://maps.app.goo.gl/MWa7egcKfBiB4mpt9",transport:{mode:"🚶",time:"5分"},category:"🛍️"},{time:"16:21",name:"Kotobukiya Namba",durationLabel:"(停留 01時00分)",mapUrl:"https://maps.app.goo.gl/KbTwZ1xipkzfHX1E9",transport:{mode:"🚶",time:"7分"},category:"🛍️"},{time:"17:28",name:"なんばマルイ",durationLabel:"(停留 01時00分)",mapUrl:"https://maps.app.goo.gl/ata1oASn6PXw6mmN9",note:`．1F_BLOOMING自動販売機
-．御堂筋線なんば駅 中改札外(備案)
+．御堂筋線なんば駅 中改札外(備　案)
 ．7F_HMV&BOOKS NAMBA
 ．御堂筋線:
 　難波站 → 心齋橋站(1站)
