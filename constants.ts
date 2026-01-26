@@ -1174,7 +1174,7 @@ export const itineraryData: ItineraryDay[] = [
                 durationLabel: "(停留 01時30分)",
                 mapUrl: "https://maps.app.goo.gl/j4a6D2GHqtnGCrwL6",
                 note: "備註：\n💴門票：¥1600/人\n🅿龍馬駐車場\n📝Map Code：858 279 451*16\n💴¥200/次",
-                parkingUrl: "https://maps.app.goo.gl/Fi2C5H1i7yqiyr617",
+                parkingUrl: "https://maps.app.goo.gl/b9FzJgY2DzktWNMi8",
                 transport: { mode: "🚗+🚶", time: "1hr15min" },
                 category: "📷"
             },
