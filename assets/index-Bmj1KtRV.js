@@ -56,9 +56,9 @@ key box【9655】`,mapUrl:"https://maps.app.goo.gl/Sbr2kRYoS9dVHCf88"},{name:"en
 ．7F_HMV&BOOKS NAMBA
 ．御堂筋線:
 　難波站 → 心齋橋站(1站)
-．¥190`,transport:{mode:"🚶+🚃",time:"8分"},category:"🛍️"},{time:"18:40",name:"3COINS",durationLabel:"(停留 01時00分)",mapUrl:"https://maps.app.goo.gl/pqvtqcavzvdt1HtGA",transport:{mode:"🚶",time:"5分"},category:"🛍️"},{time:"19:50",name:"南海難波",durationLabel:"(停留 00時30分)",mapUrl:"https://maps.app.goo.gl/FqjshYKq5CnPxBDT7",storageUrl:"https://maps.app.goo.gl/he44jc3v25impeKq6",note:`
-．堺筋線:
-　日本橋（大阪） → 天神橋筋六丁目(6站)
+．¥190`,transport:{mode:"🚶+🚃",time:"8分"},category:"🛍️"},{time:"18:40",name:"3COINS",durationLabel:"(停留 01時00分)",mapUrl:"https://maps.app.goo.gl/pqvtqcavzvdt1HtGA",transport:{mode:"🚶",time:"5分"},category:"🛍️"},{time:"19:50",name:"南海難波",durationLabel:"(停留 00時30分)",mapUrl:"https://maps.app.goo.gl/FqjshYKq5CnPxBDT7",storageUrl:"https://maps.app.goo.gl/he44jc3v25impeKq6",note:`．堺筋線:
+　日本橋（大阪） → 天神橋筋六丁
+　目(6站)
 ．💴¥240`,transport:{mode:"🚶+🚃",time:"25分"},category:"🚉"},{time:"20:50",name:"JOJO CChouse",durationLabel:"(停留 00時10分)",mapUrl:"https://maps.app.goo.gl/CaHm3U2Qae6oTWLz9",note:`
 ．谷町線:
 　天神橋筋六丁目 → 東梅田(2站)
@@ -67,7 +67,7 @@ key box【9655】`,mapUrl:"https://maps.app.goo.gl/Sbr2kRYoS9dVHCf88"},{name:"en
 ．¥190`,transport:{mode:"🚶+🚃",time:"22分"},category:"🍽️"},{time:"22:32",name:"7-Eleven 天神筋橋六6丁目站南店",durationLabel:"(停留 00時15分)",mapUrl:"https://maps.app.goo.gl/2X9Brk2n3FqTofzq5",transport:{mode:"🚶",time:"5分"},category:"🏪"},{time:"22:28",name:"JOJO CChouse",durationLabel:"",mapUrl:"https://maps.app.goo.gl/CaHm3U2Qae6oTWLz9",category:"🛏️"}]},{day:2,date:"2026/03/29",theme:"啟程、烏龍麵與庭園之美",color:"border-[#2b6e90]",highlight:"高速巴士至高松、租車、烏龍麵、栗林公園、骨付鳥。",stops:[{time:"06:20",name:"JOJO CChouse",durationLabel:"",transport:{mode:"🚶",time:"17min"},category:"🛏️"},{time:"06:37",name:"大阪梅田_阪急三番街",durationLabel:"",mapUrl:"https://maps.app.goo.gl/qzNzy6vgcdiQ5LcB6",note:"📝07:10發車",transport:{mode:"🚍",time:"3hr41min"},category:"🚏"},{time:"10:51",name:"JR高松車站_高速巴士總站",durationLabel:"",mapUrl:"https://maps.app.goo.gl/xkYKbmPX4qVFYtcQ8",transport:{mode:"🚶",time:"4min"},category:"🚏"},{time:"11:05",name:"平成租車高松車站前店",durationLabel:"(停留 00時30分)",mapUrl:"https://maps.app.goo.gl/zCnVfvDgy9bnhrB2A",transport:{mode:"🚗",time:"11min"},category:"🧍"},{time:"11:46",name:"手打十段うどんバカ一代",durationLabel:"(停留 01時00分)",mapUrl:"https://maps.app.goo.gl/AYvf4cQYFPxuAWwM7",note:`．Map code: 60 607 011*48
 ．あなぶきパーク多賀町パーキング
 ．¥100/30min`,parkingUrl:"https://maps.app.goo.gl/c2nUZh16ivDtgyKs7",transport:{mode:"🚗",time:"10min"},category:"🍽️"},{time:"13:20",name:"栗林公園",durationLabel:"(停留 02時00分)",mapUrl:"https://maps.app.goo.gl/AYvf4cQYFPxuAWwM7",note:`．門票:¥410/人
-．栗林公園 駐車場
+🅿栗林公園駐車場
 ．Map code: 60 545 891*36
 ．¥100/25min
 ===
@@ -75,39 +75,28 @@ key box【9655】`,mapUrl:"https://maps.app.goo.gl/Sbr2kRYoS9dVHCf88"},{name:"en
 ．Map code: 60 484 016*07
 ．免費`,transport:{mode:"🚗+🚶",time:"25min"},category:"🛍️"},{time:"17:25",name:"骨付鳥 一鶴 高松店",durationLabel:"(停留 01時00分)",mapUrl:"https://maps.app.goo.gl/dm8qZsERDKTztRGu6",note:`🅿丸亀町町営第4駐車場
 ．Map code: 60 606 454*70
-．¥500/5h`,parkingUrl:"https://maps.app.goo.gl/Kfeq77aV4R2s5bYS6",transport:{mode:"🚶",time:"3min"},category:"🍽️"},{time:"18:35",name:"セブン-イレブン高松丸亀町店",durationLabel:"(停留 00時30分)",mapUrl:"https://maps.app.goo.gl/7cqYFFK8Js4gxqEf8",note:`備註：
-📝郵票(きって)¥100/張`,transport:{mode:"🚶",time:"1min"},category:"🏪"},{time:"19:00",name:"薬 マツモトキヨシ高松丸亀町店",durationLabel:"",mapUrl:"https://maps.app.goo.gl/X7rK3ZaXRsDunJaJA",note:`備註：
-📝暈船藥等`,transport:{mode:"🚶",time:"4min"},category:"💊"},{time:"20:25",name:"丸亀町町営第4駐車場",durationLabel:"",mapUrl:"https://maps.app.goo.gl/Kfeq77aV4R2s5bYS6",transport:{mode:"🚗",time:"8min"},category:"🅿️"},{time:"20:40",name:"Happy House - TAKAMATSU",durationLabel:"",mapUrl:"https://maps.app.goo.gl/2ivAUEN5ZpzGWbsD9",note:`備註：
-📝Map code: 60 367 360*54`,category:"🛏️"}]},{day:3,date:"2026/03/30",theme:"小豆島絕景",color:"border-[#d15b47]",highlight:"渡輪日、寒霞溪、橄欖公園、天使之路 (需確認潮汐)。",stops:[{time:"06:00",name:"Happy House - TAKAMATSU",durationLabel:"",transport:{mode:"🚗+🚶",time:"10min"},category:"🛏️"},{time:"06:30",name:"高松港",durationLabel:"",mapUrl:"https://maps.app.goo.gl/FtJH7X3Kc2x6Zufx6",note:`備註：
-🅿高松駅前広場地下駐車場
-📝Map code: 60 635 869*11
-💴¥1400/6h`,parkingUrl:"https://maps.app.goo.gl/8oSamJPJqDHFvoVYA",transport:{mode:"🚶",time:"1min"},category:"⚓"},{time:"06:35",name:"小豆島|土庄行きフェリー乗船口",durationLabel:"",mapUrl:"https://maps.app.goo.gl/1DZX4E6Rvhnjii1z5",note:`備註：
-📝7:20發船
-💴¥1330/人(來回)`,transport:{mode:"🚢",time:"1hr"},category:"⚓"},{time:"08:20",name:"土庄港１号岸壁",durationLabel:"",mapUrl:"https://maps.app.goo.gl/tTn7gsKE8fV5C8ki7",transport:{mode:"🚶",time:"2min"},category:"⚓"},{time:"08:22",name:"土庄港",durationLabel:"(停留 00時5分)",mapUrl:"https://maps.app.goo.gl/FevYmLWP2aa6PgkN9",note:`備註：
+．¥500/5h`,parkingUrl:"https://maps.app.goo.gl/Kfeq77aV4R2s5bYS6",transport:{mode:"🚶",time:"3min"},category:"🍽️"},{time:"18:35",name:"セブン-イレブン高松丸亀町店",durationLabel:"(停留 00時30分)",mapUrl:"https://maps.app.goo.gl/7cqYFFK8Js4gxqEf8",note:"📝郵票(きって)¥100/張",transport:{mode:"🚶",time:"1min"},category:"🏪"},{time:"19:00",name:"薬 マツモトキヨシ高松丸亀町店",durationLabel:"",mapUrl:"https://maps.app.goo.gl/X7rK3ZaXRsDunJaJA",note:"📝暈船藥等",transport:{mode:"🚶",time:"4min"},category:"💊"},{time:"20:25",name:"丸亀町町営第4駐車場",durationLabel:"",mapUrl:"https://maps.app.goo.gl/Kfeq77aV4R2s5bYS6",transport:{mode:"🚗",time:"8min"},category:"🅿️"},{time:"20:40",name:"Happy House - TAKAMATSU",durationLabel:"",mapUrl:"https://maps.app.goo.gl/2ivAUEN5ZpzGWbsD9",note:"📝Map code: 60 367 360*54",category:"🛏️"}]},{day:3,date:"2026/03/30",theme:"小豆島絕景",color:"border-[#d15b47]",highlight:"渡輪日、寒霞溪、橄欖公園、天使之路 (需確認潮汐)。",stops:[{time:"06:00",name:"Happy House - TAKAMATSU",durationLabel:"",transport:{mode:"🚗+🚶",time:"10min"},category:"🛏️"},{time:"06:30",name:"高松港",durationLabel:"",mapUrl:"https://maps.app.goo.gl/FtJH7X3Kc2x6Zufx6",note:`🅿高松駅前広場地下駐車場
+．Map code: 60 635 869*11
+．¥1400/6h`,parkingUrl:"https://maps.app.goo.gl/8oSamJPJqDHFvoVYA",transport:{mode:"🚶",time:"1min"},category:"⚓"},{time:"06:35",name:"小豆島|土庄行きフェリー乗船口",durationLabel:"",mapUrl:"https://maps.app.goo.gl/1DZX4E6Rvhnjii1z5",note:`
+．7:20發船
+．¥1330/人(來回)`,transport:{mode:"🚢",time:"1hr"},category:"⚓"},{time:"08:20",name:"土庄港１号岸壁",durationLabel:"",mapUrl:"https://maps.app.goo.gl/tTn7gsKE8fV5C8ki7",transport:{mode:"🚶",time:"2min"},category:"⚓"},{time:"08:22",name:"土庄港",durationLabel:"(停留 00時5分)",mapUrl:"https://maps.app.goo.gl/FevYmLWP2aa6PgkN9",note:`📝田ノ浦映画村線:
+　08:30土庄港 → 09:02草壁港||
+　10:10土庄港 → 10:36草壁港
+．一日巴士券¥1600/人`,transport:{mode:"🚍",time:"36min"},category:"🚏"},{time:"09:02",name:"草壁港",durationLabel:"(停留 00時18分)",mapUrl:"https://maps.app.goo.gl/enP7ZtV2TW4NjRtS6",note:`📝寒霞溪急行線:
+　09:20草壁港 → 10:01紅雲亭||
+　11:10草壁港 → 11:21紅雲亭`,transport:{mode:"🚍",time:"11min"},category:"🚏"},{time:"10:01",name:"寒霞溪纜車 紅雲亭站",durationLabel:"",mapUrl:"https://maps.app.goo.gl/S5RuytkHPGVBZo979",note:"💴¥2340/人(來回)",transport:{mode:"🚡",time:"10min"},category:"🚏"},{time:"10:30",name:"寒霞溪",durationLabel:"(停留 02時00分)",mapUrl:"https://maps.app.goo.gl/erzzmTqHjrBHFTzY8",transport:{mode:"🚡",time:"10min"},category:"🏞️"},{time:"12:40",name:"寒霞溪纜車 紅雲亭站",durationLabel:"(停留 00時04分)",mapUrl:"https://maps.app.goo.gl/S5RuytkHPGVBZo979",note:`📝寒霞溪急行線:
+　12:50紅雲亭 → 13:01草壁港||
+　14:30紅雲亭 → 14:41草壁港`,transport:{mode:"🚍",time:"11min"},category:"🚏"},{time:"13:01",name:"草壁港",durationLabel:"(停留 00時35分)",mapUrl:"https://maps.app.goo.gl/enP7ZtV2TW4NjRtS6",note:`📝南廻り福田線:
+　13:36草壁港 → 13:40オリーブ公園口||
+📝坂手線:
+　14:15草壁港 → 14:19オリーブ公園口||
 📝田ノ浦映画村線:
-08:30土庄港 → 09:02草壁港||
-10:10土庄港 → 10:36草壁港
-💴一日巴士券¥1600/人`,transport:{mode:"🚍",time:"36min"},category:"🚏"},{time:"09:02",name:"草壁港",durationLabel:"(停留 00時18分)",mapUrl:"https://maps.app.goo.gl/enP7ZtV2TW4NjRtS6",note:`備註：
-📝寒霞溪急行線:
-09:20草壁港 → 10:01紅雲亭||
-11:10草壁港 → 11:21紅雲亭`,transport:{mode:"🚍",time:"11min"},category:"🚏"},{time:"10:01",name:"寒霞溪纜車 紅雲亭站",durationLabel:"",mapUrl:"https://maps.app.goo.gl/S5RuytkHPGVBZo979",note:`備註：
-💴¥2340/人(來回)`,transport:{mode:"🚡",time:"10min"},category:"🚏"},{time:"10:30",name:"寒霞溪",durationLabel:"(停留 02時00分)",mapUrl:"https://maps.app.goo.gl/erzzmTqHjrBHFTzY8",transport:{mode:"🚡",time:"10min"},category:"🏞️"},{time:"12:40",name:"寒霞溪纜車 紅雲亭站",durationLabel:"(停留 00時04分)",mapUrl:"https://maps.app.goo.gl/S5RuytkHPGVBZo979",note:`備註：
-📝寒霞溪急行線:
-12:50紅雲亭 → 13:01草壁港||
-14:30紅雲亭 → 14:41草壁港`,transport:{mode:"🚍",time:"11min"},category:"🚏"},{time:"13:01",name:"草壁港",durationLabel:"(停留 00時35分)",mapUrl:"https://maps.app.goo.gl/enP7ZtV2TW4NjRtS6",note:`備註：
-📝南廻り福田線:13:36草壁港 → 13:40オリーブ公園口||
-📝坂手線:14:15草壁港 → 14:19オリーブ公園口||
-📝田ノ浦映画村線:14:56草壁港 → 15:00オリーブ公園口`,transport:{mode:"🚍",time:"4min"},category:"🚏"},{time:"13:40",name:"小豆島橄欖公園",durationLabel:"(停留 01時20分)",mapUrl:"https://maps.app.goo.gl/TzTtBd5bNXHBVfMz5",note:`備註：
-📝田ノ浦映画村線:
-15:00オリーブ公園口→15:22国際ホテル_エンジェルロード前`,transport:{mode:"🚍",time:"22min"},category:"📷"},{time:"15:22",name:"エンジェルロード",durationLabel:"(停留 01時00分)",mapUrl:"https://maps.app.goo.gl/4C8pztCZJZsJDA1k8",note:`備註：
-📝田ノ浦映画村線:
-16:58国際ホテル_エンジェルロード前→17:08土庄港||
-18:36国際ホテル_エンジェルロード前→18:46土庄港`,transport:{mode:"🚍",time:"10min"},category:"🌅"},{time:"17:08",name:"土庄港1号岸壁",durationLabel:"",mapUrl:"https://maps.app.goo.gl/tTn7gsKE8fV5C8ki7",note:`備註：
-📝17:30發船||18:40發船`,transport:{mode:"🚢",time:"1hr"},category:"⚓"},{time:"18:30",name:"小豆島|土庄行きフェリー乗船口",durationLabel:"",mapUrl:"https://maps.app.goo.gl/1DZX4E6Rvhnjii1z5",transport:{mode:"🚶",time:"2min"},category:"⚓"},{time:"18:35",name:"高松駅前広場地下駐車場",durationLabel:"",mapUrl:"https://maps.app.goo.gl/8oSamJPJqDHFvoVYA",note:`備註：
-📝マリタイムプラザ高松
+　14:56草壁港 → 15:00オリーブ公園口`,transport:{mode:"🚍",time:"4min"},category:"🚏"},{time:"13:40",name:"小豆島橄欖公園",durationLabel:"(停留 01時20分)",mapUrl:"https://maps.app.goo.gl/TzTtBd5bNXHBVfMz5",note:`📝田ノ浦映画村線:
+　15:00オリーブ公園口→15:22国際ホテル_エンジェルロード前`,transport:{mode:"🚍",time:"22min"},category:"📷"},{time:"15:22",name:"エンジェルロード",durationLabel:"(停留 01時00分)",mapUrl:"https://maps.app.goo.gl/4C8pztCZJZsJDA1k8",note:`📝田ノ浦映画村線:
+　16:58国際ホテル_エンジェルロード前→17:08土庄港||
+　18:36国際ホテル_エンジェルロード前→18:46土庄港`,transport:{mode:"🚍",time:"10min"},category:"🌅"},{time:"17:08",name:"土庄港1号岸壁",durationLabel:"",mapUrl:"https://maps.app.goo.gl/tTn7gsKE8fV5C8ki7",note:"📝17:30發船||18:40發船",transport:{mode:"🚢",time:"1hr"},category:"⚓"},{time:"18:30",name:"小豆島|土庄行きフェリー乗船口",durationLabel:"",mapUrl:"https://maps.app.goo.gl/1DZX4E6Rvhnjii1z5",transport:{mode:"🚶",time:"2min"},category:"⚓"},{time:"18:35",name:"高松駅前広場地下駐車場",durationLabel:"",mapUrl:"https://maps.app.goo.gl/8oSamJPJqDHFvoVYA",note:`📝マリタイムプラザ高松
 ===
-⚜️伴手禮`,transport:{mode:"🚗",time:"1hr"},category:"🅿️"},{time:"20:00",name:"arigatouya 3 minutes by car to C",durationLabel:"(停留 00時15分)",mapUrl:"https://maps.app.goo.gl/qKSvDzaZz5FvERfr9",note:`備註：
-📝Map Code：77 392 568*62`,transport:{mode:"🚶",time:"2min"},category:"🛏️"},{time:"20:20",name:"MAWARU",durationLabel:"(停留 01時00分)",mapUrl:"https://maps.app.goo.gl/ieg54ETPjDopiMHt5",transport:{mode:"🚶",time:"4min"},category:"🍽️"},{time:"21:30",name:"Lawson Niocho Shop",durationLabel:"(停留 00時30分)",mapUrl:"https://maps.app.goo.gl/1XFU7jzYiUNMveS46",transport:{mode:"🚶",time:"5min"},category:"🏪"},{time:"22:05",name:"arigatouya 3 minutes by car to C",durationLabel:"(停留 01時00分)",mapUrl:"https://maps.app.goo.gl/qKSvDzaZz5FvERfr9",category:"🛏️"}]},{day:4,date:"2026/03/31",theme:"秘境：祖谷藤蔓橋與天空鳥居",color:"border-[#98c187]",highlight:"大步危峽谷、祖谷藤蔓橋、雲邊寺、高屋神社、父母濱日落。",stops:[{time:"07:30",name:"arigatouya 3 minutes by car to C",durationLabel:"",transport:{mode:"🚗",time:"1hr13min"},category:"🛏️"},{time:"08:50",name:"大步危峽谷觀光遊覽船",durationLabel:"(停留 01時00分)",mapUrl:"https://maps.app.goo.gl/zn6R4ap7Qtdi7St7A",note:`備註：
+⚜️伴手禮`,transport:{mode:"🚗",time:"1hr"},category:"🅿️"},{time:"20:00",name:"arigatouya 3 minutes by car to C",durationLabel:"(停留 00時15分)",mapUrl:"https://maps.app.goo.gl/qKSvDzaZz5FvERfr9",note:"📝Map Code：77 392 568*62",transport:{mode:"🚶",time:"2min"},category:"🛏️"},{time:"20:20",name:"MAWARU",durationLabel:"(停留 01時00分)",mapUrl:"https://maps.app.goo.gl/ieg54ETPjDopiMHt5",transport:{mode:"🚶",time:"4min"},category:"🍽️"},{time:"21:30",name:"Lawson Niocho Shop",durationLabel:"(停留 00時30分)",mapUrl:"https://maps.app.goo.gl/1XFU7jzYiUNMveS46",transport:{mode:"🚶",time:"5min"},category:"🏪"},{time:"22:05",name:"arigatouya 3 minutes by car to C",durationLabel:"(停留 01時00分)",mapUrl:"https://maps.app.goo.gl/qKSvDzaZz5FvERfr9",category:"🛏️"}]},{day:4,date:"2026/03/31",theme:"秘境：祖谷藤蔓橋與天空鳥居",color:"border-[#98c187]",highlight:"大步危峽谷、祖谷藤蔓橋、雲邊寺、高屋神社、父母濱日落。",stops:[{time:"07:30",name:"arigatouya 3 minutes by car to C",durationLabel:"",transport:{mode:"🚗",time:"1hr13min"},category:"🛏️"},{time:"08:50",name:"大步危峽谷觀光遊覽船",durationLabel:"(停留 01時00分)",mapUrl:"https://maps.app.goo.gl/zn6R4ap7Qtdi7St7A",note:`備註：
 📝Map Code：357 151 826*11
 💴¥1500/人(來回)
 🅿觀光船附設
