@@ -567,7 +567,7 @@ export const itineraryData: ItineraryDay[] = [
                 time: "09:02",
                 name: "草壁港",
                 durationLabel: "(停留 00時18分)",
-                mapUrl: "https://maps.app.goo.gl/enP7ZtV2TW4NjRtS6",
+                mapUrl: "https://maps.app.goo.gl/hceSgwpDsh9CJ1CU9",
                 note: "📝寒霞溪急行線:\n　09:20草壁港 → 10:01紅雲亭||\n　11:10草壁港 → 11:21紅雲亭",
                 transport: { mode: "🚍", time: "11min" },
                 category: "🚏"
