@@ -360,7 +360,7 @@ export const itineraryData: ItineraryDay[] = [
                 durationLabel: "(停留 00時30分)",
                 mapUrl: "https://maps.app.goo.gl/FqjshYKq5CnPxBDT7",
                 storageUrl: "https://maps.app.goo.gl/he44jc3v25impeKq6",
-                note: "\n．堺筋線:\n　日本橋（大阪） → 天神橋筋六丁目(6站)\n．💴¥240",
+                note: "．堺筋線:\n　日本橋（大阪） → 天神橋筋六丁\n　目(6站)\n．💴¥240",
                 transport: { mode: "🚶+🚃", time: "25分" },
                 category: "🚉"
             },
@@ -453,7 +453,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "栗林公園",
                 durationLabel: "(停留 02時00分)",
                 mapUrl: "https://maps.app.goo.gl/AYvf4cQYFPxuAWwM7",
-                note: "．門票:¥410/人\n．栗林公園 駐車場\n．Map code: 60 545 891*36\n．¥100/25min\n===\n⚜️伴手禮",
+                note: "．門票:¥410/人\n🅿栗林公園駐車場\n．Map code: 60 545 891*36\n．¥100/25min\n===\n⚜️伴手禮",
                 parkingUrl: "https://maps.app.goo.gl/c2nUZh16ivDtgyKs7",
                 transport: { mode: "🚗", time: "10min" },
                 category: "🏞️"
@@ -482,7 +482,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "セブン-イレブン高松丸亀町店",
                 durationLabel: "(停留 00時30分)",
                 mapUrl: "https://maps.app.goo.gl/7cqYFFK8Js4gxqEf8",
-                note: "備註：\n📝郵票(きって)¥100/張",
+                note: "📝郵票(きって)¥100/張",
                 transport: { mode: "🚶", time: "1min" },
                 category: "🏪"
             },
@@ -491,7 +491,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "薬 マツモトキヨシ高松丸亀町店",
                 durationLabel: "",
                 mapUrl: "https://maps.app.goo.gl/X7rK3ZaXRsDunJaJA",
-                note: "備註：\n📝暈船藥等",
+                note: "📝暈船藥等",
                 transport: { mode: "🚶", time: "4min" },
                 category: "💊"
             },
@@ -508,7 +508,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "Happy House - TAKAMATSU",
                 durationLabel: "",
                 mapUrl: "https://maps.app.goo.gl/2ivAUEN5ZpzGWbsD9",
-                note: "備註：\n📝Map code: 60 367 360*54",
+                note: "📝Map code: 60 367 360*54",
                 category: "🛏️"
             }
         ] 
@@ -532,7 +532,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "高松港",
                 durationLabel: "",
                 mapUrl: "https://maps.app.goo.gl/FtJH7X3Kc2x6Zufx6",
-                note: "備註：\n🅿高松駅前広場地下駐車場\n📝Map code: 60 635 869*11\n💴¥1400/6h",
+                note: "🅿高松駅前広場地下駐車場\n．Map code: 60 635 869*11\n．¥1400/6h",
                 parkingUrl: "https://maps.app.goo.gl/8oSamJPJqDHFvoVYA",
                 transport: { mode: "🚶", time: "1min" },
                 category: "⚓"
@@ -542,7 +542,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "小豆島|土庄行きフェリー乗船口",
                 durationLabel: "",
                 mapUrl: "https://maps.app.goo.gl/1DZX4E6Rvhnjii1z5",
-                note: "備註：\n📝7:20發船\n💴¥1330/人(來回)",
+                note: "\n．7:20發船\n．¥1330/人(來回)",
                 transport: { mode: "🚢", time: "1hr" },
                 category: "⚓"
             },
@@ -559,7 +559,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "土庄港",
                 durationLabel: "(停留 00時5分)",
                 mapUrl: "https://maps.app.goo.gl/FevYmLWP2aa6PgkN9",
-                note: "備註：\n📝田ノ浦映画村線:\n08:30土庄港 → 09:02草壁港||\n10:10土庄港 → 10:36草壁港\n💴一日巴士券¥1600/人",
+                note: "📝田ノ浦映画村線:\n　08:30土庄港 → 09:02草壁港||\n　10:10土庄港 → 10:36草壁港\n．一日巴士券¥1600/人",
                 transport: { mode: "🚍", time: "36min" },
                 category: "🚏"
             },
@@ -568,7 +568,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "草壁港",
                 durationLabel: "(停留 00時18分)",
                 mapUrl: "https://maps.app.goo.gl/enP7ZtV2TW4NjRtS6",
-                note: "備註：\n📝寒霞溪急行線:\n09:20草壁港 → 10:01紅雲亭||\n11:10草壁港 → 11:21紅雲亭",
+                note: "📝寒霞溪急行線:\n　09:20草壁港 → 10:01紅雲亭||\n　11:10草壁港 → 11:21紅雲亭",
                 transport: { mode: "🚍", time: "11min" },
                 category: "🚏"
             },
@@ -577,7 +577,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "寒霞溪纜車 紅雲亭站",
                 durationLabel: "",
                 mapUrl: "https://maps.app.goo.gl/S5RuytkHPGVBZo979",
-                note: "備註：\n💴¥2340/人(來回)",
+                note: "💴¥2340/人(來回)",
                 transport: { mode: "🚡", time: "10min" },
                 category: "🚏"
             },
@@ -594,7 +594,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "寒霞溪纜車 紅雲亭站",
                 durationLabel: "(停留 00時04分)",
                 mapUrl: "https://maps.app.goo.gl/S5RuytkHPGVBZo979",
-                note: "備註：\n📝寒霞溪急行線:\n12:50紅雲亭 → 13:01草壁港||\n14:30紅雲亭 → 14:41草壁港",
+                note: "📝寒霞溪急行線:\n　12:50紅雲亭 → 13:01草壁港||\n　14:30紅雲亭 → 14:41草壁港",
                 transport: { mode: "🚍", time: "11min" },
                 category: "🚏"
             },
@@ -603,7 +603,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "草壁港",
                 durationLabel: "(停留 00時35分)",
                 mapUrl: "https://maps.app.goo.gl/enP7ZtV2TW4NjRtS6",
-                note: "備註：\n📝南廻り福田線:13:36草壁港 → 13:40オリーブ公園口||\n📝坂手線:14:15草壁港 → 14:19オリーブ公園口||\n📝田ノ浦映画村線:14:56草壁港 → 15:00オリーブ公園口",
+                note: "📝南廻り福田線:\n　13:36草壁港 → 13:40オリーブ公園口||\n📝坂手線:\n　14:15草壁港 → 14:19オリーブ公園口||\n📝田ノ浦映画村線:\n　14:56草壁港 → 15:00オリーブ公園口",
                 transport: { mode: "🚍", time: "4min" },
                 category: "🚏"
             },
@@ -612,7 +612,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "小豆島橄欖公園",
                 durationLabel: "(停留 01時20分)",
                 mapUrl: "https://maps.app.goo.gl/TzTtBd5bNXHBVfMz5",
-                note: "備註：\n📝田ノ浦映画村線:\n15:00オリーブ公園口→15:22国際ホテル_エンジェルロード前",
+                note: "📝田ノ浦映画村線:\n　15:00オリーブ公園口→15:22国際ホテル_エンジェルロード前",
                 transport: { mode: "🚍", time: "22min" },
                 category: "📷"
             },
@@ -621,7 +621,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "エンジェルロード",
                 durationLabel: "(停留 01時00分)",
                 mapUrl: "https://maps.app.goo.gl/4C8pztCZJZsJDA1k8",
-                note: "備註：\n📝田ノ浦映画村線:\n16:58国際ホテル_エンジェルロード前→17:08土庄港||\n18:36国際ホテル_エンジェルロード前→18:46土庄港",
+                note: "📝田ノ浦映画村線:\n　16:58国際ホテル_エンジェルロード前→17:08土庄港||\n　18:36国際ホテル_エンジェルロード前→18:46土庄港",
                 transport: { mode: "🚍", time: "10min" },
                 category: "🌅"
             },
@@ -630,7 +630,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "土庄港1号岸壁",
                 durationLabel: "",
                 mapUrl: "https://maps.app.goo.gl/tTn7gsKE8fV5C8ki7",
-                note: "備註：\n📝17:30發船||18:40發船",
+                note: "📝17:30發船||18:40發船",
                 transport: { mode: "🚢", time: "1hr" },
                 category: "⚓"
             },
@@ -647,7 +647,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "高松駅前広場地下駐車場",
                 durationLabel: "",
                 mapUrl: "https://maps.app.goo.gl/8oSamJPJqDHFvoVYA",
-                note: "備註：\n📝マリタイムプラザ高松\n===\n⚜️伴手禮",
+                note: "📝マリタイムプラザ高松\n===\n⚜️伴手禮",
                 transport: { mode: "🚗", time: "1hr" },
                 category: "🅿️"
             },
@@ -656,7 +656,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "arigatouya 3 minutes by car to C",
                 durationLabel: "(停留 00時15分)",
                 mapUrl: "https://maps.app.goo.gl/qKSvDzaZz5FvERfr9",
-                note: "備註：\n📝Map Code：77 392 568*62",
+                note: "📝Map Code：77 392 568*62",
                 transport: { mode: "🚶", time: "2min" },
                 category: "🛏️"
             },
