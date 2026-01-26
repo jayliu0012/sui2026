@@ -777,19 +777,19 @@ export const itineraryData: ItineraryDay[] = [
                 durationLabel: "",
                 mapUrl: "https://maps.app.goo.gl/qKSvDzaZz5FvERfr9",
                 note: "📝Map Code：77 392 568*62",
-                transport: { mode: "🚶", time: "4min" },
+                transport: { mode: "🚶", time: "7min" },
                 category: "🛏️"
             },
             {
                 time: "18:50",
-                name: "鮨酒場 南",
+                name: "骨付鳥 貝鮮焼 シーサイド",
                 durationLabel: "(停留 01時00分)",
-                mapUrl: "https://maps.app.goo.gl/csCQa8HWB3tV4Ybg7",
-                transport: { mode: "🚶", time: "5min" },
+                mapUrl: "https://maps.app.goo.gl/uKwcVr9wm2nG9dq16",
+                transport: { mode: "🚶", time: "8min" },
                 category: "🍽️"
             },
             {
-                time: "20:00",
+                time: "20:10",
                 name: "Lawson Niocho Shop",
                 durationLabel: "",
                 mapUrl: "https://maps.app.goo.gl/1XFU7jzYiUNMveS46",
