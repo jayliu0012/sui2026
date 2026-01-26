@@ -282,7 +282,7 @@ export const itineraryData: ItineraryDay[] = [
                 time: "07:30",
                 name: "臺灣桃園國際機場",
                 durationLabel: "(起飛)",
-                note: "備註：\n📝\n．越捷航空_VZ566",
+                note: "備註：📝越捷航空_VZ566",
                 transport: { mode: "✈️", time: "2hr3min" },
                 category: "🛫"
             },
