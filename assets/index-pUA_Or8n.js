@@ -82,7 +82,7 @@ key box【9655】`,mapUrl:"https://maps.app.goo.gl/Sbr2kRYoS9dVHCf88"},{name:"en
 💴¥1330/人(來回)`,transport:{mode:"🚢",time:"1hr"},category:"⚓"},{time:"08:20",name:"土庄港１号岸壁",durationLabel:"",mapUrl:"https://maps.app.goo.gl/tTn7gsKE8fV5C8ki7",transport:{mode:"🚶",time:"2min"},category:"⚓"},{time:"08:22",name:"土庄港",durationLabel:"(停留 00時5分)",mapUrl:"https://maps.app.goo.gl/FevYmLWP2aa6PgkN9",note:`📝田ノ浦映画村線:
 　08:30土庄港 → 09:02草壁港||
 　10:10土庄港 → 10:36草壁港
-💴一日巴士券¥1600/人`,transport:{mode:"🚍",time:"36min"},category:"🚏"},{time:"09:02",name:"草壁港",durationLabel:"(停留 00時18分)",mapUrl:"https://maps.app.goo.gl/enP7ZtV2TW4NjRtS6",note:`📝寒霞溪急行線:
+💴一日巴士券¥1600/人`,transport:{mode:"🚍",time:"36min"},category:"🚏"},{time:"09:02",name:"草壁港",durationLabel:"(停留 00時18分)",mapUrl:"https://maps.app.goo.gl/hceSgwpDsh9CJ1CU9",note:`📝寒霞溪急行線:
 　09:20草壁港 → 10:01紅雲亭||
 　11:10草壁港 → 11:21紅雲亭`,transport:{mode:"🚍",time:"11min"},category:"🚏"},{time:"10:01",name:"寒霞溪纜車 紅雲亭站",durationLabel:"",mapUrl:"https://maps.app.goo.gl/S5RuytkHPGVBZo979",note:"💴¥2340/人(來回)",transport:{mode:"🚡",time:"10min"},category:"🚏"},{time:"10:30",name:"寒霞溪",durationLabel:"(停留 02時00分)",mapUrl:"https://maps.app.goo.gl/erzzmTqHjrBHFTzY8",transport:{mode:"🚡",time:"10min"},category:"🏞️"},{time:"12:40",name:"寒霞溪纜車 紅雲亭站",durationLabel:"(停留 00時04分)",mapUrl:"https://maps.app.goo.gl/S5RuytkHPGVBZo979",note:`📝寒霞溪急行線:
 　12:50紅雲亭 → 13:01草壁港||
