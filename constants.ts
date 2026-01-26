@@ -452,9 +452,9 @@ export const itineraryData: ItineraryDay[] = [
                 time: "13:20",
                 name: "栗林公園",
                 durationLabel: "(停留 02時00分)",
-                mapUrl: "https://maps.app.goo.gl/AYvf4cQYFPxuAWwM7",
+                mapUrl: "https://maps.app.goo.gl/8UiYmjCJb31Ew3Pu6",
                 note: "💴門票:¥410/人\n🅿栗林公園駐車場\n．Map code: 60 545 891*36\n．¥100/25min\n===\n⚜️伴手禮",
-                parkingUrl: "https://maps.app.goo.gl/c2nUZh16ivDtgyKs7",
+                parkingUrl: "https://maps.app.goo.gl/wfZZrtkpw47oHEYr5",
                 transport: { mode: "🚗", time: "10min" },
                 category: "🏞️"
             },
