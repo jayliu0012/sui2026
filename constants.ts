@@ -1037,6 +1037,7 @@ export const itineraryData: ItineraryDay[] = [
                 time: "11:25",
                 name: "松山城_長者ヶ平站",
                 durationLabel: "",
+                mapUrl: "https://maps.app.goo.gl/b2ytzSvFHMo4fRye7",
                 note: "💴¥270/人(單趟)",
                 transport: { mode: "🚡", time: "10min" },
                 category: "🚡"
@@ -1045,6 +1046,7 @@ export const itineraryData: ItineraryDay[] = [
                 time: "11:35",
                 name: "松山城_東雲口站",
                 durationLabel: "",
+                mapUrl: "https://maps.app.goo.gl/pcvbgmXSh7GQQg6R9",
                 transport: { mode: "🚶", time: "3min" },
                 category: "🚡"
             },
