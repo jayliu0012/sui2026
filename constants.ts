@@ -360,7 +360,7 @@ export const itineraryData: ItineraryDay[] = [
                 durationLabel: "(停留 00時30分)",
                 mapUrl: "https://maps.app.goo.gl/FqjshYKq5CnPxBDT7",
                 storageUrl: "https://maps.app.goo.gl/he44jc3v25impeKq6",
-                note: "．堺筋線:\n　日本橋（大阪） → 天神橋筋六丁\n　目(6站)\n．💴¥240",
+                note: "．堺筋線:\n　日本橋（大阪） → 天神橋筋六丁\n　目(6站)\n．¥240",
                 transport: { mode: "🚶+🚃", time: "25分" },
                 category: "🚉"
             },
@@ -443,7 +443,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "手打十段うどんバカ一代",
                 durationLabel: "(停留 01時00分)",
                 mapUrl: "https://maps.app.goo.gl/AYvf4cQYFPxuAWwM7",
-                note:"．🅿あなぶきパーク多賀町パーキング\n．Map code: 60 607 011*48\n．¥100/30min",
+                note:"🅿あなぶきパーク多賀町\n．Map code: 60 607 011*48\n．¥100/30min",
                 parkingUrl: "https://maps.app.goo.gl/c2nUZh16ivDtgyKs7",
                 transport: { mode: "🚗", time: "10min" },
                 category: "🍽️"
@@ -603,7 +603,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "草壁港",
                 durationLabel: "(停留 00時35分)",
                 mapUrl: "https://maps.app.goo.gl/enP7ZtV2TW4NjRtS6",
-                note: "📝南廻り福田線:\n　13:36草壁港 → 13:40オリーブ公\n　園口||\n📝坂手線:\n　14:15草壁港 → 14:19オリーブ公\n　園口||\n📝田ノ浦映画村線:\n　14:56草壁港 → 15:00オリーブ公\n　園口",
+                note: "📝南廻り福田線:\n　13:36草壁港 → 13:40オリーブ公\n　園口\n📝坂手線:\n　14:15草壁港 → 14:19オリーブ公\n　園口\n📝田ノ浦映画村線:\n　14:56草壁港 → 15:00オリーブ公\n　園口",
                 transport: { mode: "🚍", time: "4min" },
                 category: "🚏"
             },
@@ -704,7 +704,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "大步危峽谷觀光遊覽船",
                 durationLabel: "(停留 01時00分)",
                 mapUrl: "https://maps.app.goo.gl/zn6R4ap7Qtdi7St7A",
-                note: "．Map Code：357 151 826*11\n．¥1500/人(來回)\n🅿觀光船附設註車場\n．免費\n===\n⚜️伴手禮",
+                note: "🅿觀光船附設註車場\n．Map Code：357 151 826*11\n．¥1500/人(來回)\n．免費\n===\n⚜️伴手禮",
                 transport: { mode: "🚗", time: "16min" },
                 category: "🚢"
             },
@@ -766,7 +766,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "父母濱海岸",
                 durationLabel: "(停留 02時00分)",
                 mapUrl: "https://maps.app.goo.gl/xE5tHKgyV9ct8uscA",
-                note: "🅿父母ヶ浜 第1駐車場\n．Map Code：77 363 248*02\n💴免費",
+                note: "🅿父母ヶ浜 第1駐車場\n．Map Code：77 363 248*02\n．免費",
                 parkingUrl: "https://maps.app.goo.gl/6zkaAZpXzv4vYvoL7",
                 transport: { mode: "🚗", time: "10min" },
                 category: "🌅"
@@ -824,7 +824,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "ENEOS 仁尾 SS",
                 durationLabel: "(停留 00時15分)",
                 mapUrl: "https://maps.app.goo.gl/f1vBiCDokJ5r5Zuw6",
-                note: "備註：\n📝Map Code：77 393 150*55\n📝レギュラー(紅色)",
+                note: "．Map Code：77 393 150*55\n．レギュラー(紅色)",
                 transport: { mode: "🚗", time: "35min" },
                 category: "⛽"
             },
@@ -833,7 +833,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "琴平公園駐車場",
                 durationLabel: "",
                 mapUrl: "https://maps.app.goo.gl/ia34DVa5jsSGzjsz9",
-                note: "備註：\n📝Map Code：77 353 621*01\n🅿琴平海洋博物館駐車場(備案)\n📝Map Code：77 353 853*43\n💴免費",
+                note: "．Map Code：77 353 621*01\n🅿琴平海洋博物館駐車場(備案)\n．Map Code：77 353 853*43\n．免費",
                 transport: { mode: "🚶", time: "12min" },
                 category: "🅿"
             },
@@ -842,7 +842,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "金刀比羅宮 大門",
                 durationLabel: "",
                 mapUrl: "https://maps.app.goo.gl/LWxdVdMXkuvNhd6v7",
-                note: "備註：\n💴出租拐杖¥100/根",
+                note: "💴出租拐杖¥100/根",
                 transport: { mode: "🚶", time: "15min" },
                 category: "📷"
             },
@@ -867,7 +867,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "琴平公園駐車場",
                 durationLabel: "",
                 mapUrl: "https://maps.app.goo.gl/ia34DVa5jsSGzjsz9",
-                note: "備註：\n⚜️伴手禮",
+                note: "⚜️伴手禮",
                 transport: { mode: "🚗", time: "1hr40min" },
                 category: "🅿"
             },
@@ -876,7 +876,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "栄光酒造",
                 durationLabel: "(停留 01時00分)",
                 mapUrl: "https://maps.app.goo.gl/wViy53FWWiFaidcq8",
-                note: "備註：\n📝Map Code：53 352 757*26\n🅿酒廠附設\n💴免費",
+                note: "🅿酒廠附設\n．Map Code：53 352 757*26\n．免費",
                 parkingUrl: "https://maps.app.goo.gl/WfhATvMeJdr38tUS6",
                 transport: { mode: "🚗", time: "10min" },
                 category: "🛍️"
@@ -886,7 +886,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "湯山郵便局",
                 durationLabel: "(停留 01時00分)",
                 mapUrl: "https://maps.app.goo.gl/qDXe3LUeBdWZh946A",
-                note: "備註：\n📝Map Code：53 352 632*01\n💴明信片郵資¥100/張",
+                note: "．Map Code：53 352 632*01\n．明信片郵資¥100/張",
                 transport: { mode: "🚗+🚶", time: "10min" },
                 category: "🏣"
             },
@@ -895,7 +895,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "放生園",
                 durationLabel: "(停留 00時15分)",
                 mapUrl: "https://maps.app.goo.gl/fkBKoFgqQCRoAUCT9",
-                note: "備註：\n🅿エコロパーク 道後温泉前第1駐車場\n📝Map Code：53 349 563*61\n💴¥600/次\n🅿道後湯の里パーキング(備案)\n💴¥100/30min",
+                note: "🅿エコロパーク 道後温泉前第1駐車場\n．Map Code：53 349 563*61\n．¥600/次\n🅿道後湯の里パーキング(備案)\n．Map Code：53 349 591*32\n．¥100/30min",
                 parkingUrl: "https://maps.app.goo.gl/MATR6qjhJByNJXEUA",
                 transport: { mode: "🚶", time: "1min" },
                 category: "📷"
@@ -922,7 +922,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "道後温泉別館 飛鳥乃湯泉",
                 durationLabel: "(停留 01時30分)",
                 mapUrl: "https://maps.app.goo.gl/jooFV8dHv4xKc8Yu6",
-                note: "備註：\n💴門票：¥1280/人\n💴租借：毛巾¥100||浴巾¥300||置物櫃¥100\n📝人孔蓋卡",
+                note: "．門票：¥1280/人\n．毛巾¥100\n．浴巾¥300\n．置物櫃¥100\n📝人孔蓋卡",
                 transport: { mode: "🚶", time: "5min" },
                 category: "♨️"
             },
@@ -947,7 +947,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "木の家ゲストハウス松山本館",
                 durationLabel: "",
                 mapUrl: "https://maps.app.goo.gl/bHZsfw6WmcXYgKHm7",
-                note: "備註：\n📝Map Code：53 199 637*82",
+                note: "📝Map Code：53 199 637*82",
                 transport: { mode: "🚶", time: "5min" },
                 category: "🛏️"
             },
