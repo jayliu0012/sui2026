@@ -298,7 +298,7 @@ export const itineraryData: ItineraryDay[] = [
                 time: "12:30",
                 name: "関西空港駅",
                 durationLabel: "(停留 00時09分)",
-                note: "備註：\n📝\n．南海空港線:\n関西空港 → 南海難波(11站)\n．¥970",
+                note: "．南海空港線:\n　関西空港 → 南海難波(11站)\n．¥970",
                 mapUrl: "https://maps.app.goo.gl/dQQoxyrGSD2K5RNy8",
                 transport: { mode: "🚇", time: "54分" },
                 category: "🚉"
