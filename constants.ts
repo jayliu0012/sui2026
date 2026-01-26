@@ -833,7 +833,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "琴平公園駐車場",
                 durationLabel: "",
                 mapUrl: "https://maps.app.goo.gl/ia34DVa5jsSGzjsz9",
-                note: "📝Map Code：77 353 621*01\n🅿琴平海洋博物館駐車場(備案)\n．Map Code：77 353 853*43\n．免費",
+                note: "📝Map Code：77 353 621*01\n🅿琴平海洋博物館駐車場(備案)\n．Map Code：77 353 853*43\n．¥500/次",
                 transport: { mode: "🚶", time: "12min" },
                 category: "🅿"
             },
