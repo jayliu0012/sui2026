@@ -334,7 +334,6 @@ export const itineraryData: ItineraryDay[] = [
                 name: "Kotobukiya Namba",
                 durationLabel: "(停留 01時00分)",
                 mapUrl: "https://maps.app.goo.gl/KbTwZ1xipkzfHX1E9",
-                note: "",
                 transport: { mode: "🚶", time: "7分" },
                 category: "🛍️"
             },
@@ -343,7 +342,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "なんばマルイ",
                 durationLabel: "(停留 01時00分)",
                 mapUrl: "https://maps.app.goo.gl/ata1oASn6PXw6mmN9",
-                note: "備註：\n📝\n．1F_BLOOMING自動販売機\n．御堂筋線なんば駅 中改札外(備案)\n．💿7F_HMV&BOOKS NAMBA\n．御堂筋線:\n難波站 → 心齋橋站(1站)\n．¥190",
+                note: "．1F_BLOOMING自動販売機\n．御堂筋線なんば駅 中改札外(備案)\n．7F_HMV&BOOKS NAMBA\n．御堂筋線:\n　難波站 → 心齋橋站(1站)\n．¥190",
                 transport: { mode: "🚶+🚃", time: "8分" },
                 category: "🛍️"
             },
@@ -361,7 +360,7 @@ export const itineraryData: ItineraryDay[] = [
                 durationLabel: "(停留 00時30分)",
                 mapUrl: "https://maps.app.goo.gl/FqjshYKq5CnPxBDT7",
                 storageUrl: "https://maps.app.goo.gl/he44jc3v25impeKq6",
-                note: "備註：\n📝\n．堺筋線:\n日本橋（大阪） → 天神橋筋六丁目(6站)\n．💴¥240",
+                note: "\n．堺筋線:\n　日本橋（大阪） → 天神橋筋六丁目(6站)\n．💴¥240",
                 transport: { mode: "🚶+🚃", time: "25分" },
                 category: "🚉"
             },
@@ -370,7 +369,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "JOJO CChouse",
                 durationLabel: "(停留 00時10分)",
                 mapUrl: "https://maps.app.goo.gl/CaHm3U2Qae6oTWLz9",
-                note: "備註：📝\n．谷町線:\n天神橋筋六丁目 → 東梅田(2站)\n．¥190",
+                note: "\n．谷町線:\n　天神橋筋六丁目 → 東梅田(2站)\n．¥190",
                 transport: { mode: "🚶+🚃", time: "22分" },
                 category: "🛏️"
             },
@@ -379,7 +378,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "新梅田美食街",
                 durationLabel: "(停留 01時00分)",
                 mapUrl: "https://maps.app.goo.gl/PfkTrsuwTj8YWrCS7",
-                note: "備註：\n📝谷町線:\n東梅田 → 天神橋筋六丁目(2站)\n💴¥190",
+                note: "．谷町線:\n　東梅田 → 天神橋筋六丁目(2站)\n．¥190",
                 transport: { mode: "🚶+🚃", time: "22分" },
                 category: "🍽️"
             },
@@ -419,7 +418,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "大阪梅田_阪急三番街",
                 durationLabel: "",
                 mapUrl: "https://maps.app.goo.gl/qzNzy6vgcdiQ5LcB6",
-                note: "備註：\n📝07:10發車",
+                note: "📝07:10發車",
                 transport: { mode: "🚍", time: "3hr41min" },
                 category: "🚏"
             },
@@ -444,7 +443,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "手打十段うどんバカ一代",
                 durationLabel: "(停留 01時00分)",
                 mapUrl: "https://maps.app.goo.gl/AYvf4cQYFPxuAWwM7",
-                note:"備註：\n📝Map code: 60 607 011*48\n🅿あなぶきパーク多賀町パーキング\n💴¥100/30min",
+                note:"．Map code: 60 607 011*48\n．あなぶきパーク多賀町パーキング\n．¥100/30min",
                 parkingUrl: "https://maps.app.goo.gl/c2nUZh16ivDtgyKs7",
                 transport: { mode: "🚗", time: "10min" },
                 category: "🍽️"
@@ -454,7 +453,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "栗林公園",
                 durationLabel: "(停留 02時00分)",
                 mapUrl: "https://maps.app.goo.gl/AYvf4cQYFPxuAWwM7",
-                note: "備註：\n💴門票:¥410/人\n🅿栗林公園 駐車場\n📝Map code: 60 545 891*36\n💴¥100/25min\n===\n⚜️伴手禮",
+                note: "．門票:¥410/人\n．栗林公園 駐車場\n．Map code: 60 545 891*36\n．¥100/25min\n===\n⚜️伴手禮",
                 parkingUrl: "https://maps.app.goo.gl/c2nUZh16ivDtgyKs7",
                 transport: { mode: "🚗", time: "10min" },
                 category: "🏞️"
@@ -464,7 +463,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "時尚中心 思夢樂鹿角店",
                 durationLabel: "(停留 01時00分)",
                 mapUrl: "https://maps.app.goo.gl/ZHD7GTgQtJUxRuah6",
-                note: "備註：\n🅿思夢樂附設\n📝Map code: 60 484 016*07\n💴免費",
+                note: "🅿思夢樂附設駐車場\n．Map code: 60 484 016*07\n．免費",
                 transport: { mode: "🚗+🚶", time: "25min" },
                 category: "🛍️"
             },
@@ -473,7 +472,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "骨付鳥 一鶴 高松店",
                 durationLabel: "(停留 01時00分)",
                 mapUrl: "https://maps.app.goo.gl/dm8qZsERDKTztRGu6",
-                note: "備註：\n🅿丸亀町町営第4駐車場\n📝Map code: 60 606 454*70\n💴¥500/5h",
+                note: "🅿丸亀町町営第4駐車場\n．Map code: 60 606 454*70\n．¥500/5h",
                 parkingUrl: "https://maps.app.goo.gl/Kfeq77aV4R2s5bYS6",
                 transport: { mode: "🚶", time: "3min" },
                 category: "🍽️"
