@@ -282,7 +282,7 @@ export const itineraryData: ItineraryDay[] = [
                 time: "07:30",
                 name: "臺灣桃園國際機場",
                 durationLabel: "(起飛)",
-                note: "備註：\n📝越捷航空_VZ566",
+                note: "備註：\n📝\n．越捷航空_VZ566",
                 transport: { mode: "✈️", time: "2hr3min" },
                 category: "🛫"
             },
@@ -290,7 +290,7 @@ export const itineraryData: ItineraryDay[] = [
                 time: "11:00",
                 name: "関西国際空港",
                 durationLabel: "(停留 01時00分)",
-                note: "備註：\n📝 搭乘手扶梯至2F、ICOCA卡(南海電鐵_紅色窗口)",
+                note: "備註：\n📝\n．搭乘手扶梯至2F\n．ICOCA卡(南海電鐵_紅色窗口)",
                 transport: { mode: "🚶", time: "10分" },
                 category: "🛬"
             },
@@ -298,7 +298,7 @@ export const itineraryData: ItineraryDay[] = [
                 time: "12:30",
                 name: "関西空港駅",
                 durationLabel: "(停留 00時09分)",
-                note: "備註：\n📝南海空港線:\n関西空港 → 南海難波(11站)\n💴¥970",
+                note: "備註：\n📝\n．南海空港線:\n関西空港 → 南海難波(11站)\n．¥970",
                 mapUrl: "https://maps.app.goo.gl/dQQoxyrGSD2K5RNy8",
                 transport: { mode: "🚇", time: "54分" },
                 category: "🚉"
@@ -343,7 +343,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "なんばマルイ",
                 durationLabel: "(停留 01時00分)",
                 mapUrl: "https://maps.app.goo.gl/ata1oASn6PXw6mmN9",
-                note: "備註：\n📝1F_BLOOMING自動販売機\n📝御堂筋線なんば駅 中改札外(備案)\n💿7F_HMV&BOOKS NAMBA\n📝御堂筋線:\n難波站 → 心齋橋站(1站)\n💴¥190",
+                note: "備註：\n📝\n．1F_BLOOMING自動販売機\n．御堂筋線なんば駅 中改札外(備案)\n．💿7F_HMV&BOOKS NAMBA\n．御堂筋線:\n難波站 → 心齋橋站(1站)\n．¥190",
                 transport: { mode: "🚶+🚃", time: "8分" },
                 category: "🛍️"
             },
@@ -361,7 +361,7 @@ export const itineraryData: ItineraryDay[] = [
                 durationLabel: "(停留 00時30分)",
                 mapUrl: "https://maps.app.goo.gl/FqjshYKq5CnPxBDT7",
                 storageUrl: "https://maps.app.goo.gl/he44jc3v25impeKq6",
-                note: "備註：\n📝堺筋線:\n日本橋（大阪） → 天神橋筋六丁目(6站)\n💴¥240",
+                note: "備註：\n📝\n．堺筋線:\n日本橋（大阪） → 天神橋筋六丁目(6站)\n．💴¥240",
                 transport: { mode: "🚶+🚃", time: "25分" },
                 category: "🚉"
             },
@@ -370,7 +370,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "JOJO CChouse",
                 durationLabel: "(停留 00時10分)",
                 mapUrl: "https://maps.app.goo.gl/CaHm3U2Qae6oTWLz9",
-                note: "備註：\n📝谷町線:\n天神橋筋六丁目 → 東梅田(2站)\n💴¥190",
+                note: "備註：📝\n．谷町線:\n天神橋筋六丁目 → 東梅田(2站)\n．¥190",
                 transport: { mode: "🚶+🚃", time: "22分" },
                 category: "🛏️"
             },
