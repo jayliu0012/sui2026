@@ -602,7 +602,7 @@ export const itineraryData: ItineraryDay[] = [
                 time: "13:01",
                 name: "草壁港",
                 durationLabel: "(停留 00時35分)",
-                mapUrl: "https://maps.app.goo.gl/enP7ZtV2TW4NjRtS6",
+                mapUrl: "https://maps.app.goo.gl/hceSgwpDsh9CJ1CU9",
                 note: "📝南廻り福田線:\n　13:36草壁港 → 13:40オリーブ公\n　園口\n📝坂手線:\n　14:15草壁港 → 14:19オリーブ公\n　園口\n📝田ノ浦映画村線:\n　14:56草壁港 → 15:00オリーブ公\n　園口",
                 transport: { mode: "🚍", time: "4min" },
                 category: "🚏"
