@@ -1174,7 +1174,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "桂濱水族館",
                 durationLabel: "(停留 01時30分)",
                 mapUrl: "https://maps.app.goo.gl/73vQriAGk28R43ok6",
-                note: "💴門票：¥1600/人\n🅿龍馬駐車場\n．Map Code：858 279 451*16\n．¥200/次",
+                note: "💴門票：¥1600/人\n🅿龍馬駐車場\n．Map Code：858 279 451*16\n．¥200/次\n🅿LIFE PARK 桂浜(備案)\n．Map Code：858 279 482*58\n．¥200/次",
                 parkingUrl: "https://maps.app.goo.gl/HZB6iasV7PBfE74H7",
                 transport: { mode: "🚗+🚶", time: "1hr15min" },
                 category: "📷"
