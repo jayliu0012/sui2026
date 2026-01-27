@@ -1313,7 +1313,7 @@ export const itineraryData: ItineraryDay[] = [
             },
             {
                 time: "19:15",
-                name: "Karaokekan Namba-ebisubashi honten",
+                name: "カラオケ館 なんば戎橋本店",
                 durationLabel: "(停留 02時00分)",
                 mapUrl: "https://maps.app.goo.gl/twvB49NcQ9gB8vgh8",
                 transport: { mode: "🚶", time: "1分" },
