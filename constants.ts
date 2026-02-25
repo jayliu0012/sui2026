@@ -300,6 +300,7 @@ export const itineraryData: ItineraryDay[] = [
                 durationLabel: "(停留 00時09分)",
                 note: "📝南海空港線:\n　関西空港 → 南海難波(11站)\n．¥970",
                 mapUrl: "https://maps.app.goo.gl/dQQoxyrGSD2K5RNy8",
+                traintimeUrl: "https://www.howto-osaka.com/tc/access-timetable/",
                 transport: { mode: "🚇", time: "54分" },
                 category: "🚉"
             },
@@ -1363,6 +1364,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "南海難波",
                 durationLabel: "",
                 mapUrl: "https://maps.app.goo.gl/FqjshYKq5CnPxBDT7",
+                traintimeUrl: "https://www.howto-osaka.com/tc/access-timetable/",
                 note: "📝南海空港線：南海難波>関西空港(11站)\n．¥970",
                 transport: { mode: "🚇", time: "54分" },
                 category: "🚉"
