@@ -42,6 +42,7 @@ export interface ItineraryStop {
   parkingUrl?: string;
   storageUrl?: string;
   specialUrl?: string;
+  traintimeUrl?: string;
   category?: string; // e.g., 'flight', 'transport', 'food', 'shopping', 'accommodation'
 }
 
