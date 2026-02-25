@@ -110,6 +110,12 @@ const StopItem: React.FC<{ stop: ItineraryStop; index: number; total: number; th
                                 <span className="border-b border-dashed border-gray-400 group-hover:border-[#2b6e90]">行李寄存導航</span>
                             </a>
                         )}
+                        {stop.traintimeUrl && (
+                            <a href={stop.traintimeUrl} target="_blank" rel="noopener noreferrer" className="flex items-center text-base font-medium text-[#757575] hover:text-[#2b6e90] group">
+                                <span className="mr-2 text-blue-500 text-lg">🕒</span>
+                                <span className="border-b border-dashed border-gray-400 group-hover:border-[#2b6e90]">時刻表</span>
+                            </a>
+                        )}
                     </div>
                     {stop.note && (
                         <div className="flex items-start text-left text-base text-[#3c3c3c] leading-relaxed bg-gray-50 p-3 rounded-lg border border-gray-100 w-full">
