@@ -349,9 +349,10 @@ export const itineraryData: ItineraryDay[] = [
             },
             {
                 time: "18:40",
-                name: "3COINS",
+                name: "クリスタ長堀",
                 durationLabel: "(停留 01時00分)",
-                mapUrl: "https://maps.app.goo.gl/pqvtqcavzvdt1HtGA",
+                mapUrl: "https://maps.app.goo.gl/KkJhFYoYfVk7jWmb9",
+                note: "．MUJI\n．3COINS",
                 transport: { mode: "🚶", time: "5分" },
                 category: "🛍️"
             },
