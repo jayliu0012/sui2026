@@ -1273,7 +1273,7 @@ const SouvenirContent: React.FC<{ setSubView: (v: string | null) => void }> = ({
                     key={day.day}
                     title={`Day ${day.day} - ${formatDateForHeader(day.date).split(' ')[0]}`}
                     colorClass="border-[#f1be42]"
-                    defaultOpen={true}
+                    defaultOpen={false}
                 >
                     <div className="space-y-6">
                         {day.souvenirs.map((item, index) => (
