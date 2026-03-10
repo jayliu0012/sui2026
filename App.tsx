@@ -965,6 +965,7 @@ const ShikokuInfoContent: React.FC<{ setSubView: (v: string | null) => void }> =
     const [selectedLocId, setSelectedLocId] = useState('064427'); // Default: Kagawa
 
     const weatherRegions = [
+        { id: '064214', name: '大阪' },
         { id: '064427', name: '香川' },
         { id: '064497', name: '德島' },
         { id: '063941', name: '愛媛' },
