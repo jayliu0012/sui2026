@@ -991,6 +991,12 @@ const ShikokuInfoContent: React.FC<{ setSubView: (v: string | null) => void }> =
 
     const outfitData = [
         {
+            region: '大阪 (Oaska)',
+            temp: '5°C - 15°C',
+            advice: '雖然天氣漸暖，但早晚仍感寒冷且可能有風，建議以長袖上衣搭配風衣或針織外套，以應對涼爽的早晚氣溫。',
+            icon: '🎴'
+        },
+        {
             region: '香川 (Kagawa)',
             temp: '8°C - 17°C',
             advice: '瀨戶內海氣候溫暖，但早晚溫差大。建議「洋蔥式」穿法：內層發熱衣或短袖，中層長袖針織衫，外層薄大衣或風衣。',
