@@ -466,30 +466,30 @@ export const itineraryData: ItineraryDay[] = [
                 durationLabel: "(停留 01時00分)",
                 mapUrl: "https://maps.app.goo.gl/ZHD7GTgQtJUxRuah6",
                 note: "🅿思夢樂附設\n．Map code: 60 484 016*07\n．免費",
-                transport: { mode: "🚗+🚶", time: "25min" },
+                transport: { mode: "🚗+🚶", time: "35min" },
                 category: "🛍️"
             },
             {
-                time: "17:25",
-                name: "骨付鳥 一鶴 高松店",
+                time: "17:35",
+                name: "バーミヤン 高松松島店",
                 durationLabel: "(停留 01時00分)",
-                mapUrl: "https://maps.app.goo.gl/dm8qZsERDKTztRGu6",
+                mapUrl: "https://maps.app.goo.gl/cJ1WbkdfH6wVc5Z88",
                 note: "🅿丸亀町町営第4駐車場\n．Map code: 60 606 454*70\n．¥500/5h",
                 parkingUrl: "https://maps.app.goo.gl/Kfeq77aV4R2s5bYS6",
-                transport: { mode: "🚶", time: "3min" },
+                transport: { mode: "🚶", time: "16min" },
                 category: "🍽️"
             },
             {
-                time: "18:35",
+                time: "19:10",
                 name: "セブン-イレブン高松丸亀町店",
-                durationLabel: "(停留 00時30分)",
+                durationLabel: "(停留 00時15分)",
                 mapUrl: "https://maps.app.goo.gl/7cqYFFK8Js4gxqEf8",
                 note: "📝郵票(きって)¥100/張",
                 transport: { mode: "🚶", time: "1min" },
                 category: "🏪"
             },
             {
-                time: "19:00",
+                time: "19:30",
                 name: "薬 マツモトキヨシ高松丸亀町店",
                 durationLabel: "",
                 mapUrl: "https://maps.app.goo.gl/X7rK3ZaXRsDunJaJA",
@@ -498,7 +498,7 @@ export const itineraryData: ItineraryDay[] = [
                 category: "💊"
             },
             {
-                time: "20:25",
+                time: "20:30",
                 name: "丸亀町町営第4駐車場",
                 durationLabel: "",
                 mapUrl: "https://maps.app.goo.gl/Kfeq77aV4R2s5bYS6",
