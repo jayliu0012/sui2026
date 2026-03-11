@@ -58,7 +58,7 @@ key box【9655】`,mapUrl:"https://maps.app.goo.gl/Sbr2kRYoS9dVHCf88"},{name:"en
 📝御堂筋線:
 　難波站 → 心齋橋站(1站)
 ．¥190`,transport:{mode:"🚶+🚃",time:"8分"},category:"🛍️"},{time:"18:40",name:"クリスタ長堀",durationLabel:"(停留 01時00分)",mapUrl:"https://maps.app.goo.gl/KkJhFYoYfVk7jWmb9",note:`．MUJI
-．3COINS`,transport:{mode:"🚶",time:"5分"},category:"🛍️"},{time:"19:50",name:"南海難波",durationLabel:"(停留 00時30分)",mapUrl:"https://maps.app.goo.gl/FqjshYKq5CnPxBDT7",storageUrl:"https://maps.app.goo.gl/he44jc3v25impeKq6",note:`📝堺筋線:
+．3COINS`,transport:{mode:"🚶+🚃",time:"10分"},category:"🛍️"},{time:"19:50",name:"南海難波",durationLabel:"(停留 00時30分)",mapUrl:"https://maps.app.goo.gl/FqjshYKq5CnPxBDT7",storageUrl:"https://maps.app.goo.gl/he44jc3v25impeKq6",note:`📝堺筋線:
 　日本橋（大阪） → 天神橋筋六丁
 　目(6站)
 ．¥240`,transport:{mode:"🚶+🚃",time:"25分"},category:"🚉"},{time:"20:50",name:"JOJO CChouse",durationLabel:"(停留 00時10分)",mapUrl:"https://maps.app.goo.gl/CaHm3U2Qae6oTWLz9",note:`
