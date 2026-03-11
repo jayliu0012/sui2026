@@ -353,7 +353,7 @@ export const itineraryData: ItineraryDay[] = [
                 durationLabel: "(停留 01時00分)",
                 mapUrl: "https://maps.app.goo.gl/KkJhFYoYfVk7jWmb9",
                 note: "．MUJI\n．3COINS",
-                transport: { mode: "🚶", time: "5分" },
+                transport: { mode: "🚶+🚃", time: "10分" },
                 category: "🛍️"
             },
             {
