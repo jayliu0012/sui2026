@@ -309,9 +309,9 @@ export const itineraryData: ItineraryDay[] = [
                 name: "南海難波",
                 durationLabel: "(停留 00時30分)",
                 note: "📝行李寄放",
-                mapUrl: "https://maps.app.goo.gl/FqjshYKq5CnPxBDT7",
-                storageUrl: "https://maps.app.goo.gl/he44jc3v25impeKq6",
-                transport: { mode: "🚶", time: "4分" },
+                mapUrl: "https://maps.app.goo.gl/kdxad3eiU2of6bCq8",
+                storageUrl: "https://maps.app.goo.gl/iZijg9jrP1aSUv4r8",
+                transport: { mode: "🚶", time: "10分" },
                 category: "🚉"
             },
             {
