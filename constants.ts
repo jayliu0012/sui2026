@@ -343,7 +343,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "なんばマルイ",
                 durationLabel: "(停留 01時00分)",
                 mapUrl: "https://maps.app.goo.gl/ata1oASn6PXw6mmN9",
-                note: "．1F_BLOOMING自動販売機\n．御堂筋線なんば駅 中改札外(備\n　案)\n．7F_HMV&BOOKS NAMBA\n📝御堂筋線:\n　難波站 → 心齋橋站(1站)\n．¥190",
+                note: "．1F_BLOOMING自動販売機\n．御堂筋線なんば駅 中改札外(備\n　案)\n．7F_HMV&BOOKS NAMBA/Uniqlo \n📝御堂筋線:\n　難波站 → 心齋橋站(1站)\n．¥190",
                 transport: { mode: "🚶+🚃", time: "8分" },
                 category: "🛍️"
             },
