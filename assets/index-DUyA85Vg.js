@@ -54,7 +54,7 @@ key box【9655】`,mapUrl:"https://maps.app.goo.gl/Sbr2kRYoS9dVHCf88"},{name:"en
 ．¥970`,mapUrl:"https://maps.app.goo.gl/dQQoxyrGSD2K5RNy8",traintimeUrl:"https://www.howto-osaka.com/tc/access-timetable/",transport:{mode:"🚇",time:"54分"},category:"🚉"},{time:"13:33",name:"南海難波",durationLabel:"(停留 00時30分)",note:"📝行李寄放",mapUrl:"https://maps.app.goo.gl/kdxad3eiU2of6bCq8",storageUrl:"https://maps.app.goo.gl/iZijg9jrP1aSUv4r8",transport:{mode:"🚶",time:"10分"},category:"🚉"},{time:"14:07",name:"福太郎 難波Dining Maison店",durationLabel:"(停留 01時00分)",mapUrl:"https://maps.app.goo.gl/TxSwyh3CFuRcGjep8",transport:{mode:"🚶",time:"9分"},category:"🍽️"},{time:"15:16",name:"K-books Namba-ichibankan",durationLabel:"(停留 01時00分)",mapUrl:"https://maps.app.goo.gl/MWa7egcKfBiB4mpt9",transport:{mode:"🚶",time:"5分"},category:"🛍️"},{time:"16:21",name:"Kotobukiya Namba",durationLabel:"(停留 01時00分)",mapUrl:"https://maps.app.goo.gl/KbTwZ1xipkzfHX1E9",transport:{mode:"🚶",time:"7分"},category:"🛍️"},{time:"17:28",name:"なんばマルイ",durationLabel:"(停留 01時00分)",mapUrl:"https://maps.app.goo.gl/ata1oASn6PXw6mmN9",note:`．1F_BLOOMING自動販売機
 ．御堂筋線なんば駅 中改札外(備
 　案)
-．7F_HMV&BOOKS NAMBA
+．7F_HMV&BOOKS NAMBA/Uniqlo 
 📝御堂筋線:
 　難波站 → 心齋橋站(1站)
 ．¥190`,transport:{mode:"🚶+🚃",time:"8分"},category:"🛍️"},{time:"18:40",name:"クリスタ長堀",durationLabel:"(停留 01時00分)",mapUrl:"https://maps.app.goo.gl/KkJhFYoYfVk7jWmb9",note:`．MUJI
