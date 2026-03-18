@@ -1314,15 +1314,15 @@ export const itineraryData: ItineraryDay[] = [
                 category: "🛏️"
             },
             {
-                time: "19:15",
-                name: "カラオケ館 なんば戎橋本店",
+                time: "19:30",
+                name: "カラオケまねきねこ 千日前店",
                 durationLabel: "(停留 02時00分)",
-                mapUrl: "https://maps.app.goo.gl/twvB49NcQ9gB8vgh8",
-                transport: { mode: "🚶", time: "1分" },
+                mapUrl: "https://maps.app.goo.gl/XFKiF376xd14uFup7",
+                transport: { mode: "🚶", time: "3分" },
                 category: "🎶"
             },
             {
-                time: "21:30",
+                time: "21:40",
                 name: "道頓堀",
                 durationLabel: "(停留 01時30分)",
                 mapUrl: "https://maps.app.goo.gl/Eu5cPwihJ6md8voK9",
