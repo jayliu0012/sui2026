@@ -361,7 +361,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "南海難波",
                 durationLabel: "(停留 00時30分)",
                 mapUrl: "https://maps.app.goo.gl/FqjshYKq5CnPxBDT7",
-                storageUrl: "https://maps.app.goo.gl/he44jc3v25impeKq6",
+                storageUrl: "https://maps.app.goo.gl/iZijg9jrP1aSUv4r8",
                 note: "📝堺筋線:\n　日本橋（大阪） → 天神橋筋六丁\n　目(6站)\n．¥240",
                 transport: { mode: "🚶+🚃", time: "25分" },
                 category: "🚉"
