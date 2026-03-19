@@ -596,7 +596,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "寒霞溪纜車 紅雲亭站",
                 durationLabel: "(停留 00時04分)",
                 mapUrl: "https://maps.app.goo.gl/S5RuytkHPGVBZo979",
-                note: "📝寒霞溪急行線:\n12:30紅雲亭 → 12:41草壁港||\n　13:10紅雲亭 → 13:21草壁港",
+                note: "📝寒霞溪急行線:\n　12:30紅雲亭 → 12:41草壁港||\n　13:10紅雲亭 → 13:21草壁港",
                 transport: { mode: "🚍", time: "11min" },
                 category: "🚏"
             },
@@ -614,7 +614,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "小豆島橄欖公園",
                 durationLabel: "(停留 01時00分)",
                 mapUrl: "https://maps.app.goo.gl/TzTtBd5bNXHBVfMz5",
-                note: "\n📝南廻り福田線:\n 13:40オリーブ公園口→14:01オリーブタウン前📝坂手線:\n　14:19オリーブ公園口→14:40オリーブタウン前",
+                note: "\n📝南廻り福田線:\n　13:40オリーブ公園口→14:01オリーブタウン前\n📝坂手線:\n　14:19オリーブ公園口→14:40オリーブタウン前",
                 transport: { mode: "🚍+🚶", time: "25min" },
                 category: "📷"
             },
