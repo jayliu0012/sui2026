@@ -933,7 +933,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "道後温泉別館 飛鳥乃湯泉",
                 durationLabel: "(停留 01時30分)",
                 mapUrl: "https://maps.app.goo.gl/jooFV8dHv4xKc8Yu6",
-                note: "💴門票：¥1280/人\n．毛巾¥100\n．浴巾¥300\n．置物櫃¥100\n📝人孔蓋卡（マンホールカード",
+                note: "💴門票：¥1280/人\n．毛巾¥100\n．浴巾¥300\n．置物櫃¥100\n📝人孔蓋卡(マンホールカード)",
                 transport: { mode: "🚶", time: "5min" },
                 category: "♨️"
             },
