@@ -86,7 +86,7 @@ key box【9655】`,mapUrl:"https://maps.app.goo.gl/Sbr2kRYoS9dVHCf88"},{name:"en
 💴一日巴士券¥1600/人`,transport:{mode:"🚍",time:"36min"},category:"🚏"},{time:"09:02",name:"草壁港",durationLabel:"(停留 00時18分)",mapUrl:"https://maps.app.goo.gl/hceSgwpDsh9CJ1CU9",note:`📝寒霞溪急行線:
 　09:50草壁港 → 10:01紅雲亭||
 　11:10草壁港 → 11:21紅雲亭`,transport:{mode:"🚍",time:"11min"},category:"🚏"},{time:"10:01",name:"寒霞溪纜車 紅雲亭站",durationLabel:"",mapUrl:"https://maps.app.goo.gl/S5RuytkHPGVBZo979",note:"💴¥2340/人(來回)",transport:{mode:"🚡",time:"10min"},category:"🚏"},{time:"10:30",name:"寒霞溪",durationLabel:"(停留 01時30分)",mapUrl:"https://maps.app.goo.gl/erzzmTqHjrBHFTzY8",transport:{mode:"🚡",time:"10min"},category:"🏞️"},{time:"12:30",name:"寒霞溪纜車 紅雲亭站",durationLabel:"(停留 00時04分)",mapUrl:"https://maps.app.goo.gl/S5RuytkHPGVBZo979",note:`📝寒霞溪急行線:
-12:30紅雲亭 → 12:41草壁港||
+　12:30紅雲亭 → 12:41草壁港||
 　13:10紅雲亭 → 13:21草壁港`,transport:{mode:"🚍",time:"11min"},category:"🚏"},{time:"12:41",name:"草壁港",durationLabel:"(停留 00時35分)",mapUrl:"https://maps.app.goo.gl/hceSgwpDsh9CJ1CU9",note:`
 📝坂手線:
 　13:00草壁港 → 13:04オリーブ公
@@ -98,7 +98,8 @@ key box【9655】`,mapUrl:"https://maps.app.goo.gl/Sbr2kRYoS9dVHCf88"},{name:"en
 　14:56草壁港 → 15:00オリーブ公
 　園口`,transport:{mode:"🚍",time:"4min"},category:"🚏"},{time:"13:04",name:"小豆島橄欖公園",durationLabel:"(停留 01時00分)",mapUrl:"https://maps.app.goo.gl/TzTtBd5bNXHBVfMz5",note:`
 📝南廻り福田線:
- 13:40オリーブ公園口→14:01オリーブタウン前📝坂手線:
+　13:40オリーブ公園口→14:01オリーブタウン前
+📝坂手線:
 　14:19オリーブ公園口→14:40オリーブタウン前`,transport:{mode:"🚍+🚶",time:"25min"},category:"📷"},{time:"14:45",name:"土淵海峽",durationLabel:"(停留 01時00分)",mapUrl:"https://maps.app.goo.gl/6xV65asynVLeXZVX8",note:"",transport:{mode:"🚶",time:"16min"},category:"📷"},{time:"15:50",name:"エンジェルロード",durationLabel:"(停留 01時00分)",mapUrl:"https://maps.app.goo.gl/4C8pztCZJZsJDA1k8",note:`📝田ノ浦映画村線:
 　16:58国際ホテル_エンジェルロ
 　ード前→17:08土庄港||
