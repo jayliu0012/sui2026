@@ -715,12 +715,12 @@ export const itineraryData: ItineraryDay[] = [
                 name: "大步危峽谷觀光遊覽船",
                 durationLabel: "(停留 01時00分)",
                 mapUrl: "https://maps.app.goo.gl/zn6R4ap7Qtdi7St7A",
-                note: "🅿觀光船附設註車場\n．Map Code：357 151 826*11\n．¥1500/人(來回)\n．免費\n===\n⚜️伴手禮",
+                note: "💴門票：¥1500/人\n🅿觀光船附設註車場\n．Map Code：357 151 826*11\n．¥1500/人(來回)\n．免費",
                 transport: { mode: "🚗", time: "16min" },
                 category: "🚢"
             },
             {
-                time: "10:00",
+                time: "10:16",
                 name: "ENEOS かずら橋 SS",
                 durationLabel: "(停留 00時15分)",
                 mapUrl: "https://maps.app.goo.gl/BrwrwQxPuvPxhxGK7",
@@ -729,7 +729,7 @@ export const itineraryData: ItineraryDay[] = [
                 category: "⛽"
             },
             {
-                time: "10:30",
+                time: "10:50",
                 name: "祖谷のかずら橋管理小屋",
                 durationLabel: "(停留 00時15分)",
                 mapUrl: "https://maps.app.goo.gl/m47yUdoA3czX1oMT6",
