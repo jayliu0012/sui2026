@@ -352,7 +352,7 @@ export const itineraryData: ItineraryDay[] = [
                 name: "TAI THAI なんば本店",
                 durationLabel: "",
                 mapUrl: "https://maps.app.goo.gl/zAP4Lk9eJywxbfGq6",
-                note: "📝行李寄放\n．堺筋線:\n　日本橋（大阪） → 天神橋筋六丁目(6站)\n．¥240",
+                note: "📝行李寄放\n．堺筋線:\n　日本橋（大阪） → 天神橋筋六丁\n　目(6站)\n．¥240",
                 transport: { mode: "🚶+🚃", time: "30分" },
                 category: "🧳"
             },
@@ -401,7 +401,7 @@ export const itineraryData: ItineraryDay[] = [
                 category: "🏪"
             },
             {
-                time: "22:28",
+                time: "23:00",
                 name: "JOJO CChouse",
                 durationLabel: "",
                 mapUrl: "https://maps.app.goo.gl/CaHm3U2Qae6oTWLz9",
