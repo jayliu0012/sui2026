@@ -325,58 +325,57 @@ export const itineraryData: ItineraryDay[] = [
             {
                 time: "15:16",
                 name: "K-books Namba-ichibankan",
-                durationLabel: "(停留 01時00分)",
+                durationLabel: "(停留 00時30分)",
                 mapUrl: "https://maps.app.goo.gl/MWa7egcKfBiB4mpt9",
                 transport: { mode: "🚶", time: "5分" },
                 category: "🛍️"
             },
             {
-                time: "16:21",
+                time: "15:55",
                 name: "Kotobukiya Namba",
-                durationLabel: "(停留 01時00分)",
+                durationLabel: "(停留 00時30分)",
                 mapUrl: "https://maps.app.goo.gl/KbTwZ1xipkzfHX1E9",
                 transport: { mode: "🚶", time: "7分" },
                 category: "🛍️"
             },
             {
-                time: "17:28",
+                time: "16:30",
                 name: "なんばマルイ",
                 durationLabel: "(停留 01時00分)",
                 mapUrl: "https://maps.app.goo.gl/ata1oASn6PXw6mmN9",
-                note: "．1F_BLOOMING自動販売機\n．御堂筋線なんば駅 中改札外(備\n　案)\n．7F_HMV&BOOKS NAMBA/Uniqlo \n📝御堂筋線:\n　難波站 → 心齋橋站(1站)\n．¥190",
-                transport: { mode: "🚶+🚃", time: "8分" },
+                note: "．1F_BLOOMING自動販売機\n．御堂筋線なんば駅 中改札外(備\n　案)\n．7F_HMV&BOOKS NAMBA/Uniqlo",
+                transport: { mode: "🚶", time: "6分" },
                 category: "🛍️"
             },
             {
-                time: "18:40",
-                name: "クリスタ長堀",
-                durationLabel: "(停留 01時00分)",
-                mapUrl: "https://maps.app.goo.gl/KkJhFYoYfVk7jWmb9",
-                note: "．MUJI\n．3COINS",
-                transport: { mode: "🚶+🚃", time: "10分" },
-                category: "🛍️"
+                time: "17:30",
+                name: "TAI THAI なんば本店",
+                durationLabel: "",
+                mapUrl: "https://maps.app.goo.gl/zAP4Lk9eJywxbfGq6",
+                note: "📝行李寄放\n．堺筋線:\n　日本橋（大阪） → 天神橋筋六丁目(6站)\n．¥240",
+                transport: { mode: "🚶+🚃", time: "30分" },
+                category: "🧳"
             },
             {
-                time: "19:50",
-                name: "南海難波",
-                durationLabel: "(停留 00時30分)",
-                mapUrl: "https://maps.app.goo.gl/FqjshYKq5CnPxBDT7",
-                storageUrl: "https://maps.app.goo.gl/iZijg9jrP1aSUv4r8",
-                note: "📝堺筋線:\n　日本橋（大阪） → 天神橋筋六丁\n　目(6站)\n．¥240",
-                transport: { mode: "🚶+🚃", time: "25分" },
-                category: "🚉"
-            },
-            {
-                time: "20:50",
+                time: "18:00",
                 name: "JOJO CChouse",
                 durationLabel: "(停留 00時10分)",
                 mapUrl: "https://maps.app.goo.gl/CaHm3U2Qae6oTWLz9",
                 note: "\n📝谷町線:\n　天神橋筋六丁目 → 東梅田(2站)\n．¥190",
-                transport: { mode: "🚶+🚃", time: "22分" },
+                transport: { mode: "🚶+🚃", time: "17分" },
                 category: "🛏️"
             },
             {
-                time: "21:30",
+                time: "18:30",
+                name: "Nintendo OSAKA",
+                durationLabel: "(停留 01時00分)",
+                mapUrl: "https://maps.app.goo.gl/KzPpW1UUK1CPxoPQ8",
+                note: "",
+                transport: { mode: "🚶", time: "10分" },
+                category: "🛍️"
+            },
+            {
+                time: "20:10",
                 name: "新梅田美食街",
                 durationLabel: "(停留 01時00分)",
                 mapUrl: "https://maps.app.goo.gl/PfkTrsuwTj8YWrCS7",
@@ -385,7 +384,16 @@ export const itineraryData: ItineraryDay[] = [
                 category: "🍽️"
             },
             {
-                time: "22:32",
+                time: "21:30",
+                name: "くら寿司 天六駅前店",
+                durationLabel: "",
+                mapUrl: "https://maps.app.goo.gl/F2xT2K5aJAni9XGh6",
+                note: "",
+                transport: { mode: "🚶", time: "10分" },
+                category: "🍽️"
+            },
+            {
+                time: "22:30",
                 name: "7-Eleven 天神筋橋六6丁目站南店",
                 durationLabel: "(停留 00時15分)",
                 mapUrl: "https://maps.app.goo.gl/2X9Brk2n3FqTofzq5",
@@ -535,7 +543,7 @@ export const itineraryData: ItineraryDay[] = [
                 durationLabel: "",
                 mapUrl: "https://maps.app.goo.gl/FtJH7X3Kc2x6Zufx6",
                 note: "🅿高松駅前広場地下駐車場\n．Map code: 60 635 869*11\n．¥1400/6h",
-                parkingUrl: "https://maps.app.goo.gl/8oSamJPJqDHFvoVYA",
+                parkingUrl: "https://maps.app.goo.gl/2MJtWao9GVwxKLZU8",
                 transport: { mode: "🚶", time: "1min" },
                 category: "⚓"
             },
@@ -650,17 +658,27 @@ export const itineraryData: ItineraryDay[] = [
                 name: "小豆島|土庄行きフェリー乗船口",
                 durationLabel: "",
                 mapUrl: "https://maps.app.goo.gl/1DZX4E6Rvhnjii1z5",
-                transport: { mode: "🚶", time: "2min" },
+                transport: { mode: "🚶", time: "3min" },
                 category: "⚓"
             },
             {
                 time: "18:35",
-                name: "高松駅前広場地下駐車場",
+                name: "MUJI",
                 durationLabel: "",
-                mapUrl: "https://maps.app.goo.gl/8oSamJPJqDHFvoVYA",
-                note: "📝マリタイムプラザ高松\n===\n⚜️伴手禮",
+                mapUrl: "https://maps.app.goo.gl/vD6J8ro8DP5yFqw96",
+                note: "",
+                transport: { mode: "🚶", time: "3min" },
+                category: "🛍️"
+            },
+            {
+                time: "19:00",
+                name: "四国ショップ 88松",
+                durationLabel: "",
+                mapUrl: "https://maps.app.goo.gl/CkSR929Arb2w8tuw7",
+                parkingUrl: "https://maps.app.goo.gl/2MJtWao9GVwxKLZU8",
+                note: "⚜️伴手禮",
                 transport: { mode: "🚗", time: "1hr" },
-                category: "🅿️"
+                category: "🛍️"
             },
             {
                 time: "20:00",
