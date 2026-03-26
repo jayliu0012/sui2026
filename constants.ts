@@ -327,28 +327,36 @@ export const itineraryData: ItineraryDay[] = [
                 name: "K-books Namba-ichibankan",
                 durationLabel: "(停留 00時30分)",
                 mapUrl: "https://maps.app.goo.gl/MWa7egcKfBiB4mpt9",
+                transport: { mode: "🚶", time: "2分" },
+                category: "🛍️"
+            },
+            {
+                time: "15:50",
+                name: "アニメイト大阪日本橋",
+                durationLabel: "(停留 00時30分)",
+                mapUrl: "https://maps.app.goo.gl/3v62dm48tWVWdtxL7",
                 transport: { mode: "🚶", time: "5分" },
                 category: "🛍️"
             },
             {
-                time: "15:55",
+                time: "16:25",
                 name: "Kotobukiya Namba",
                 durationLabel: "(停留 00時30分)",
                 mapUrl: "https://maps.app.goo.gl/KbTwZ1xipkzfHX1E9",
-                transport: { mode: "🚶", time: "7分" },
-                category: "🛍️"
-            },
-            {
-                time: "16:30",
-                name: "なんばマルイ",
-                durationLabel: "(停留 01時00分)",
-                mapUrl: "https://maps.app.goo.gl/ata1oASn6PXw6mmN9",
-                note: "．1F_BLOOMING自動販売機\n．御堂筋線なんば駅 中改札外(備\n　案)\n．7F_HMV&BOOKS NAMBA/Uniqlo",
                 transport: { mode: "🚶", time: "6分" },
                 category: "🛍️"
             },
             {
-                time: "17:30",
+                time: "17:00",
+                name: "なんばマルイ",
+                durationLabel: "(停留 01時00分)",
+                mapUrl: "https://maps.app.goo.gl/ata1oASn6PXw6mmN9",
+                note: "．1F_BLOOMING自動販売機\n．御堂筋線なんば駅 中改札外(備\n　案)\n．5F_HMV&BOOKS NAMBA\n．6F_GU\n．7F_Uniqlo",
+                transport: { mode: "🚶", time: "6分" },
+                category: "🛍️"
+            },
+            {
+                time: "18:10",
                 name: "TAI THAI なんば本店",
                 durationLabel: "",
                 mapUrl: "https://maps.app.goo.gl/zAP4Lk9eJywxbfGq6",
@@ -357,7 +365,7 @@ export const itineraryData: ItineraryDay[] = [
                 category: "🧳"
             },
             {
-                time: "18:00",
+                time: "18:40",
                 name: "JOJO CChouse",
                 durationLabel: "(停留 00時10分)",
                 mapUrl: "https://maps.app.goo.gl/CaHm3U2Qae6oTWLz9",
@@ -366,7 +374,7 @@ export const itineraryData: ItineraryDay[] = [
                 category: "🛏️"
             },
             {
-                time: "18:30",
+                time: "19:00",
                 name: "Nintendo OSAKA",
                 durationLabel: "(停留 01時00分)",
                 mapUrl: "https://maps.app.goo.gl/KzPpW1UUK1CPxoPQ8",
